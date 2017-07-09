@@ -2,12 +2,13 @@
 
 <h1>New Mexico History Museum exhibit interactives</h1>
 <b>Raspberry Pi videolooper</b>
+<br>
 https://learn.adafruit.com/raspberry-pi-video-looper
 <br>
 <b>Touchscreens</b><br>
 Segesser Hides, Shifting Boundaries
 <br><br>
-Segesser Hides and Shifting Boundaries both require a local host server (Mamp) to run on the pc. Chrome is used as the kiosk to display the website.
+Segesser Hides and Shifting Boundaries kiosk versions require a local host server (Mamp) to run on the pc. Chrome is used as the kiosk to display the website.
 <br><br>
 Chrome Kiosk for Windows
 <br><br>
