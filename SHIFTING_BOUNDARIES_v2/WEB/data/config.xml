@@ -1,0 +1,504 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	
+	<app>
+		<width>1920</width>
+		<height>1200</height>
+		<attract_timeout>150000</attract_timeout>
+		<attract_video_url>'assets/attract_video.flv</attract_video_url>
+	</app>
+	
+	<assets>
+		<map>
+			
+			<min>0</min>
+			<max>1840</max>
+			<map_base>assets/map/map_base.png</map_base>
+			<map_background>assets/map/background_map.png</map_background>
+			<map_vignette>assets/map/map_vignette.png</map_vignette>
+			<map_dragger_dn>assets/map/map_dragger_d.png</map_dragger_dn>
+			<map_dragger_up>assets/map/map_dragger_u.png</map_dragger_up>
+			
+			<images>
+				<image>
+					<url>assets/map/map_01.png</url>
+					<label>assets/map/map_label_precontact</label>
+					<xpos>119</xpos>
+				</image>
+				<image>
+					<url>assets/map/map_02.png</url>
+					<label>assets/map/map_label_newspain</label>
+					<xpos>347</xpos>
+				</image>
+				<image>
+					<url>assets/map/map_03.png</url>
+					<label>assets/map/map_label_louisianapurchase</label>
+					<xpos>567</xpos>
+				</image>
+				<image>
+					<url>assets/map/map_04.png</url>
+					<label>assets/map/map_label_adamonis</label>
+					<xpos>804</xpos>
+				</image>
+				<image>
+					<url>assets/map/map_05.png</url>
+					<label>assets/map/map_label_treatyofgh</label>
+					<xpos>1042</xpos>
+				</image>
+				<image>
+					<url>assets/map/map_06.png</url>
+					<label>assets/map/map_label_compromise1850</label>
+					<xpos>1272</xpos>
+				</image>
+				<image>
+					<url>assets/map/map_07.png</url>
+					<label>assets/map/map_label_gadsden</label>
+					<xpos>1497</xpos>
+				</image>
+				<image>
+					<url>assets/map/map_08.png</url>
+					<label>assets/map/map_label_newmexico</label>
+					<xpos>1721</xpos>
+				</image>
+			</images>
+		</map>
+		
+		<story>
+			<background>assets/story/background.png</background>
+			<story_nav_background>assets/story/story_nav_background.png</story_nav_background>
+			<section_titles>assets/story/section_titles.png</section_titles>
+			<story_nav_btn_bg_left>assets/story/story_nav_down_left.jpg</story_nav_btn_bg_left>
+			<story_nav_btn_bg_center>assets/story/story_nav_down_center.jpg</story_nav_btn_bg_center>
+			<story_nav_btn_bg_right>assets/story/story_nav_down_right.jpg</story_nav_btn_bg_right>
+			<see_on_map_btn_up>assets/story/see_on_map_u.png</see_on_map_btn_up>
+			<see_on_map_btn_dn>assets/story/see_on_map_d.png</see_on_map_btn_dn>
+		</story>
+
+	</assets>
+	
+	
+	<sections>
+	<!-- Section I = Encounters -->
+		<section_one>
+			<section_button_labels>assets/story/story_nav_encounters</section_button_labels>
+			<overview>
+				<bg_image_url>assets/panels/story_encounters_00.jpg</bg_image_url>
+			</overview>
+			<stories>
+				<story>
+					<map_id>1</map_id>
+					<bg_image_url>assets/panels/story_encounters_01.jpg</bg_image_url>
+					<images>
+						<image>
+							<url>content/042780.jpg</url>
+							<caption><![CDATA[Santa Clara Pueblo, 1880. John K. Hillers, Photo Archives, NMHM, DCA 42780]]></caption>
+						</image>
+						<image>
+							<url>content/132144.jpg</url>
+							<caption><![CDATA[Laguna pueblo, 1925 – 1945. T. Harmon Parkhurst, Photo Archives, NMHM, DCA 132144]]></caption>
+						</image>
+						<image>
+							<url>content/140775.jpg</url>
+							<caption><![CDATA[Navajo winter and summer hogans, White River Canyon, Arizona. Bryce Elliot, Photo Archives, NMHM, DCA 140775]]></caption>
+						</image>
+						<image>
+							<url>content/004360.jpg</url>
+							<caption><![CDATA[Santo Domingo Pueblo, view from Mission Roof, September 30, 1880. Bryce Elliot, Photo Archives, NMHM,<br>DCA 4360]]></caption>
+						</image>
+						<image>
+							<url>content/031265.jpg</url>
+							<caption><![CDATA[Santo Domingo Pueblo, October 1, 1880. George C. Bennett, Photo Archives, NMHM, DCA 31265]]></caption>
+						</image>
+					</images>
+				</story>
+				<story>
+					<section_button_labels>story_nav_encounters</section_button_labels>
+					<map_id>2</map_id>
+					<bg_image_url>assets/panels/story_encounters_02.jpg</bg_image_url>
+					<images>
+						<image>
+							<url>content/Armada_galleass.jpg</url>
+							<caption><![CDATA[An armada galeass, depicted in the anonymous Greenwich Cartoon. Public Domain]]></caption>
+						</image>
+						<image>
+							<url>content/3a38351u.jpg</url>
+							<caption><![CDATA[Coronado’s March, Colorado, ca. 1897. Courtesy of the Library of Congress]]></caption>
+						</image>
+						<image>
+							<url>content/MexicoOrNewSpain.jpg</url>
+							<caption><![CDATA[Mexico of New Spain, 1777. Fray Angélico Chávez History Library, NMHM, DCA, Map Collection 7.2 1777]]></caption>
+						</image>
+						<image>
+							<url>content/3a50528u.jpg</url>
+							<caption><![CDATA[Old mission church, New Mexico, built 1776 at Zuni, 1873. Timothy O’Sullivan, Courtesy of the Library of Congress]]></caption>
+						</image>
+						<image>
+							<url>content/031814.jpg</url>
+							<caption><![CDATA[Algodones, New Mexico. Photo Archives, NMHM, DCA 31814]]></caption>
+						</image>
+						<image>
+							<url>content/Transparency-1.jpg</url>
+							<caption><![CDATA[Oñate Medallion. Courtesy of the Archdiocese of Santa Fe Collection in the Museum of International Folk Art, NMHM, DCA L1.1957.49]]></caption>
+						</image>
+						<image>
+							<url>content/129403.jpg</url>
+							<caption><![CDATA[Oñate Inscription, August 18, 1940. Ralph H. Anderson, Photo Archives, NMHM, DCA 129403]]></caption>
+						</image>
+						<image>
+							<url>content/014769.jpg</url>
+							<caption><![CDATA[Corpus Christi procession. Photo Archives, NMHM, DCA 14769]]></caption>
+						</image>
+					</images>
+				</story>
+				<story>
+					<map_id>3</map_id>
+					<bg_image_url>assets/panels/story_encounters_03.jpg</bg_image_url>
+					<images>
+						<image>
+							<url>content/segesser_II.jpg</url>
+							<caption><![CDATA[Segesser Hide (depicting Spanish, Native and French conflict), History Collection, NMHM, DCA 11005/45<br>Museum Purchase]]></caption>
+						</image>
+						<image>
+							<url>content/ct000654.jpg</url>
+							<caption><![CDATA[Louisiana (map of Louisiana Purchase), 1814. Fray Angélico Chávez History Library, NMHM, DCA, Map Collection 76.3 1814 (1804)]]></caption>
+						</image>
+						<image>
+							<url>content/His-oo-san-chess.jpg</url>
+							<caption><![CDATA[“His-oo-san-chees,” The Little Spaniard, 1834. Image from John L. Kessell, <span class="imageCaptionItalic">Kiva, Cross, and Crown: The Pecos Indians and New Mexico, 1540 – 1840</span>. Washington, DC: National Park Service, 1979. p. 231. Original by George Catlin, 1834]]></caption>
+						</image>
+						<image>
+							<url>content/28-0206a.jpg</url>
+							<caption><![CDATA[Treaty between the United States of America and the French Republic ceding the province of Louisiana to the United States, April 30, 1803. Courtesy of the National Archives]]></caption>
+						</image>
+						<image>
+							<url>content/3g03410u.jpg</url>
+							<caption><![CDATA[<span class="imageCaptionItalic">War dance of the Sauks and Foxes</span>, 1825-1834. P. Rindisbacher, printed by C. Hullmandel, Courtesy of the<br>Library of Congress]]></caption>
+							<caption><![CDATA[<span class="imageCaptionItalic">War dance of the Sauks and Foxes</span>, 1825 – 1834. P. Rindisbacher, printed by C. Hullmandel, Courtesy of the Library of Congress]]></caption>
+						</image>
+						<image>
+							<url>content/3g03254u.jpg</url>
+							<caption><![CDATA[Thomas Jefferson, third president of the United States. Lithographed and published by H. Robinson, N.Y. & Washington, D.C., 1840 – 1851. Courtesy of the Library of Congress]]></caption>
+						</image>
+					</images>
+				</story>
+			</stories>
+		</section_one>
+		
+		<!-- Section II = Whose Nation -->
+		
+		<section_two>
+			<section_button_labels>assets/story/story_nav_whose_nation</section_button_labels>
+			<overview>
+				<bg_image_url>assets/panels/story_whose_nation_00.jpg</bg_image_url>
+			</overview>
+			<stories>
+				<story>
+					<map_id></map_id>
+					<bg_image_url>assets/panels/story_whose_nation_01.jpg</bg_image_url>
+					<images>
+						<image>
+							<url>content/3b48557u.jpg</url>
+							<caption><![CDATA[Battle of Cerro Cordo, April 18, 1847. Courtesy of the Library of Congress]]></caption>
+						</image>
+						<image>
+							<url>content/3b49849u.jpg</url>
+							<caption><![CDATA[The Battle of Sacramento, fought February 28, 1847. Courtesy of the Library of Congress]]></caption>
+						</image>
+						<image>
+							<url>content/3g02956u.jpg</url>
+							<caption><![CDATA[Battle of Resaca de la Palma, May 9, 1846. Capture of General Vega by the gallant Captain May. Courtesy of the Library of Congress]]></caption>
+						</image>
+						<image>
+							<url>content/3g02955u.jpg</url>
+							<caption><![CDATA[Landing of the American forces under General Scott, at Vera Cruz, March 9, 1847, ca.1847. Courtesy of the<br>Library of Congress]]></caption>
+						</image>
+						<image>
+							<url>content/3a24796u.jpg</url>
+							<caption><![CDATA[President James K. Polk, 1845. Courtesy of the Library of Congress]]></caption>
+						</image>
+						<image>
+							<url>content/3a22346u.jpg</url>
+							<caption><![CDATA[General D. Antonio Lopez De Santa-Anna, president of the Republic of Mexico, ca. 1847. Courtesy of the<br>Library of Congress]]></caption>
+						</image>
+						<image>
+							<url>content/3b09860u.jpg</url>
+							<caption><![CDATA[The Battle of Mexico, 1847. Courtesy of the Library of Congress]]></caption>
+						</image>
+						<image>
+							<url>content/BrilliantCharge.jpg</url>
+							<caption><![CDATA[The Brilliant Charge of Captain May, 1846. Fray Angélico Chávez History Library, DCA, NMHM, Graphics Collection 3-89]]></caption>
+						</image>
+					</images>
+				</story>
+				<story>
+					<map_id>5</map_id>
+					<bg_image_url>assets/panels/story_whose_nation_02.jpg</bg_image_url>
+					<images>
+						<image>
+							<url>content/Disturnell1846.jpg</url>
+							<caption><![CDATA[Mapa de los Estados Unidos de Méjico, 1846. Fray Angélico Chávez History Library, NMHM, DCA,<br>Map Collection 7.2 1846]]></caption>
+						</image>
+						<image>
+							<url>content/Treaty_48.jpg</url>
+							<caption><![CDATA[Treaty of Guadalupe Hidalgo, 1848. Courtesy of the National Archives]]></caption>
+						</image>
+						<image>
+							<url>content/07635u.jpg</url>
+							<caption><![CDATA[Campaign poster for Democratic nominee Zachary Taylor, the victorious Mexican War general, 1848. James Ackerman, Courtesy of the Library of Congress]]></caption>
+						</image>
+						<image>
+							<url>content/02914a.jpg</url>
+							<caption><![CDATA[Nicholas Philip Trist, 1855 – 1865. Brady-Handy Photograph Collection, Courtesy of the Library of Congress]]></caption>
+						</image>
+					</images>
+				</story>
+				<story>
+					<map_id>7</map_id>
+					<bg_image_url>assets/panels/story_whose_nation_03.jpg</bg_image_url>
+					<images>
+						<image>
+							<url>content/rr001730.jpg</url>
+							<caption><![CDATA[1855 Pacific Railway Route Map, 1857. Courtesy of the Library of Congress, Geography and Map Division]]></caption>
+						</image>
+						<image>
+							<url>content/089772.jpg</url>
+							<caption><![CDATA[Engine No. 2511, Southern Pacific R.R., last regular train on the Cloudcroft branch, 1847. Photo Archives, NMHM, DCA 89772]]></caption>
+						</image>
+						<image>
+							<url>content/056152.jpg</url>
+							<caption><![CDATA[Unidentified Apache group. A. Frank Randall, Photo Archives, NMHM, DCA 56152]]></caption>
+						</image>
+						<image>
+							<url>content/057237.jpg</url>
+							<caption><![CDATA[Mesilla restaurant, later La Pasta Restaurant. Photo Archives, NMHM, DCA 57237]]></caption>
+						</image>
+						<image>
+							<url>content/122144.jpg</url>
+							<caption><![CDATA[First San Albino Catholic Church, built 1852, under renovation, Mesilla, New Mexico, ca. 1885 – 1890, Photo Archives, NMHM, DCA 122144]]></caption>
+						</image>
+						<image>
+							<url>content/036115.jpg</url>
+							<caption><![CDATA[Mescalero Apache Group, ca. 1906. H.F. Robinson, Photo Archives, NMHM, DCA 36115]]></caption>
+						</image>
+						<image>
+							<url>content/56344.jpg</url>
+							<caption><![CDATA[Street Scene, Mesilla, New Mexico. New Mexico State Tourist Bureau, Photo Archives, NMHM, DCA 56344]]></caption>
+						</image>
+						<image>
+							<url>content/028266.jpg</url>
+							<caption><![CDATA[Chiricahua Apache Indians. James N. Furlong, Photo Archives, NMHM, DCA 28266]]></caption>
+						</image>
+						<image>
+							<url>content/013808.jpg</url>
+							<caption><![CDATA[“Mexican Family,” October 16, 1895. Martinez Collection, Photo Archives, NMHM, DCA 13808]]></caption>
+						</image>
+					</images>
+				</story>
+			</stories>
+		</section_two>
+		
+		<!-- Section III = Becoming New Mexico -->
+		
+		<section_three>
+			<section_button_labels>assets/story/story_nav_becoming_nm</section_button_labels>
+			<overview>
+				<bg_image_url>assets/panels/story_becoming_nm_00.jpg</bg_image_url>
+			</overview>
+			<stories>
+				<story>
+					<map_id>6</map_id>
+					<bg_image_url>assets/panels/story_becoming_nm_01.jpg</bg_image_url>
+					<images>
+						<image>
+							<url>content/02601u.jpg</url>
+							<caption><![CDATA[<span class="imageCaptionItalic">Union</span>, a symbolic group portrait eulogizing recent legislative efforts, notably the Compromise of 1850, to preserve the Union, ca. 1852. Painted By Tompkins H. Matteson, engraved by Henry S. Sadd, Courtesy of the Library of Congress]]></caption>
+						</image>
+						<image>
+							<url>content/1847_Map.jpg</url>
+							<caption><![CDATA[Map of Mexico, including Yucatan and Upper California, 1847. Fray Angélico Chávez History Library, NMHM, DCA, Map Collection 7.2 1847a]]></caption>
+						</image>
+					</images>
+				</story>
+				<story>
+					<map_id></map_id>
+					<bg_image_url>assets/panels/story_becoming_nm_03.jpg</bg_image_url>
+					<images>
+						<image>
+							<url>content/NM-AZHorizontal.jpg</url>
+							<caption><![CDATA[California, Territories of New Mexico and Utah, 1863. Fray Angélico Chávez History Library, NMHM, DCA, Map Collection 78.9 1863]]></caption>
+						</image>
+						<image>
+							<url>content/015813.jpg</url>
+							<caption><![CDATA[Old Holbrook, Arizona, ca. 1883. Ben Wittick, Photo Archives, NMHM, DCA 15813]]></caption>
+						</image>
+						<image>
+							<url>content/106180.jpg</url>
+							<caption><![CDATA[Surveillance aircraft patrolling the border along the Rio Grande, ca. 1950. New Mexico Magazine Collection,<br>Photo Archives, NMHM, DCA 106180]]></caption>
+						</image>
+						<image>
+							<url>content/013309.jpg</url>
+							<caption><![CDATA[Thomas B. Catron, ca. 1917. Wesley Bradfield, Photo Archives, NMHM, DCA 13309]]></caption>
+						</image>
+						<image>
+							<url>content/140378.jpg</url>
+							<caption><![CDATA[“Carload of Governors,” Herbert Hagerman, Miguel A. Otero, William T. Thornton, L. Bradford Prince. Aaron B. Craycraft, Photo Archives, NMHM, DCA 140378]]></caption>
+						</image>
+					</images>
+				</story>
+				<story>
+					<map_id></map_id>
+					<bg_image_url>assets/panels/story_becoming_nm_02.jpg</bg_image_url>
+					<images>
+						<image>
+							<url>content/3b45614u.jpg</url>
+							<caption><![CDATA[Near the base of Old Shiprock: Two Navajo Indians on horses with butte in background, ca. 1914. Courtesy of the Library of Congress]]></caption>
+						</image>
+						<image>
+							<url>content/05081u.jpg</url>
+							<caption><![CDATA[Pueblos bring first protest since Lincoln: Four Pueblo men (L – R) Santiago Naranjo, Waihusing, James Miller, and Jesus Baca, January 15, 1923. Underwood & Underwood, Courtesy of the Library of Congress]]></caption>
+						</image>
+						<image>
+							<url>content/016038.jpg</url>
+							<caption><![CDATA[“Navajo Woman Weaving a Blanket,” ca. 1980 – 1990. Ben Wittick, Photo Archives, NMHM, DCA 16038]]></caption>
+						</image>
+						<image>
+							<url>content/160902.jpg</url>
+							<caption><![CDATA[General William Tecumseh Sherman. Photo Archives, NMHM, DCA 160902]]></caption>
+						</image>
+						<image>
+							<url>content/009581.jpg</url>
+							<caption><![CDATA[Old Mesilla plaza, New Mexico, ca. 1920. Photo Archives, NMHM, DCA 9581]]></caption>
+						</image>
+						<image>
+							<url>content/048716.jpg</url>
+							<caption><![CDATA[Barboncito, Chief of the Navajo Tribe in New Mexico. Photo Archives, NMHM, DCA 48716]]></caption>
+						</image>
+						<image>
+							<url>content/016482.jpg</url>
+							<caption><![CDATA[At Supplee’s Ranch & Trading Store near Wingate. Ben Wittick, Photo Archives, NMHM, DCA 16482]]></caption>
+						</image>
+						<image>
+							<url>content/045814.jpg</url>
+							<caption><![CDATA[Group of Ute and Jicarilla Indians including Agent W. F. M. Army, ca. 1868. Nicholas Brown, Photo Archives, NMHM, DCA 45814]]></caption>
+						</image>
+						<image>
+							<url>content/028539.jpg</url>
+							<caption><![CDATA[Fort Sumner, New Mexico Street View, ca. 1866. Photo Archives, NMHM, DCA 28539]]></caption>
+						</image>
+						<image>
+							<url>content/016468.jpg</url>
+							<caption><![CDATA[Navajo loom and hogan, ca. 1950. Ben Wittick, Photo Archives, NMHM, DCA 16468]]></caption>
+						</image>
+						<image>
+							<url>content/036599.jpg</url>
+							<caption><![CDATA[A.W. Cougar & Co., ca. 1884. Mary Lou Skinner, Photo Archives, NMHM, DCA 36599]]></caption>
+						</image>
+						<image>
+							<url>content/028535.jpg</url>
+							<caption><![CDATA[Navajo scouts waiting to be paid at Fort Wingate, ca. 1886. Lynn Baily (U.S. Army Signal Corps.), Photo Archives, NMHM, DCA 28535]]></caption>
+						</image>
+						<image>
+							<url>content/05084u.jpg</url>
+							<caption><![CDATA[Group of Pueblo Indians photographed at the U.S. Capitol, January 23, 1923. National Photo Company, Courtesy of the Library of Congress]]></caption>
+						</image>
+					</images>
+				</story>
+			</stories>
+		</section_three>
+		
+		<!-- Section IV = Homelands -->
+		
+		<section_four>
+			<section_button_labels>assets/story/story_nav_homelands</section_button_labels>
+			<overview>
+				<bg_image_url>assets/panels/story_homelands_00.jpg</bg_image_url>
+			</overview>
+			<stories>
+				<story>
+					<map_id></map_id>
+					<bg_image_url>assets/panels/story_homelands_01.jpg</bg_image_url>
+					<images>
+						<image>
+							<url>content/104445.jpg</url>
+							<caption><![CDATA[Fernando de Taos, New Mexico, ca. 1885. George E. Mellen, Photo Archives, NMHM, DCA 104445]]></caption>
+						</image>
+						<image>
+							<url>content/052337.jpg</url>
+							<caption><![CDATA[Congressman Manuel Luján and President Richard Nixon, 1971. Photo Archives, NMHM, DCA 52337]]></caption>
+						</image>
+						<image>
+							<url>content/04449.jpg</url>
+							<caption><![CDATA[Mission Ruins, Taos, New Mexico, ca. 1935. T. Harmon Parkhurst, Photo Archives, NMHM, DCA 4449]]></caption>
+						</image>
+					</images>
+				</story>
+				<story>
+					<map_id></map_id>
+					<bg_image_url>assets/panels/story_homelands_02.jpg</bg_image_url>
+					<images>
+						<image>
+							<url>content/Landgrants1920(s).jpg</url>
+							<caption><![CDATA[New Mexico, 1920. Fray Angélico Chávez History Library, NMHM, DCA Map Collection 78.9 E 1920s]]></caption>
+						</image>
+						<image>
+							<url>content/005526.jpg</url>
+							<caption><![CDATA[Irrigation acequia, New Mexico, 1935. T. Harmon Parkhurst, Photo Archives, NMHM, DCA 5526]]></caption>
+						</image>
+						<image>
+							<url>content/068820.jpg</url>
+							<caption><![CDATA[Sheep threshing wheat in northern New Mexico, using methods similar to those used in Spain over two hundred years earlier, ca. 1925 – 1945. T. Harmon Parkhurst, Photo Archives, NMHM, DCA 68820]]></caption>
+						</image>
+						<image>
+							<url>content/068901.jpg</url>
+							<caption><![CDATA[Typical scene of sheep grazing on common lands in northern New Mexico, 1935. T. Harmon Parkhurst,<br>Photo Archives, NMHM, DCA 68901]]></caption>
+						</image>
+						<image>
+							<url>content/061298.jpg</url>
+							<caption><![CDATA[Dry-farmed field near Las Vegas, New Mexico, 1909. Jesse Nusbaum, Photo Archives, NMHM, DCA 61298]]></caption>
+						</image>
+						<image>
+							<url>content/022697.jpg</url>
+							<caption><![CDATA[Winnowing wheat, Picuris Pueblo, New Mexico, ca. 1935. T. Harmon Parkhurst, Photo Archives, NMHM,<br>DCA 22697]]></caption>
+						</image>
+					</images>
+				</story>
+				<story>
+					<map_id></map_id>
+					<bg_image_url>assets/panels/story_homelands_03.jpg</bg_image_url>
+					<images>
+						<image>
+							<url>content/NM-MAG-Border-Patrol.jpg</url>
+							<caption><![CDATA[Surveillance aircraft patrolling the border along the Rio Grande, ca. 1950. New Mexico Magazine Collection, Photo Archives, NMHM, DCA]]></caption>
+						</image>
+						<image>
+							<url>content/056344.jpg</url>
+							<caption><![CDATA[Street Scene, Mesilla, New Mexico, 1961. New Mexico State Tourist Bureau, Photo Archives, NMHM, DCA 56344]]></caption>
+						</image>
+						<image>
+							<url>content/009581.jpg</url>
+							<caption><![CDATA[Old Mesilla plaza, New Mexico, ca. 1920. Photo Archives, NMHM, DCA 9581]]></caption>
+						</image>
+						<image>
+							<url>content/014299.jpg</url>
+							<caption><![CDATA[The Catholic Church of San Albino (built 1852), Mesilla, New Mexico, ca. 1881. Striles & Burke, Photo Archives, NMHM, DCA 14299]]></caption>
+						</image>
+						<image>
+							<url>content/009588.jpg</url>
+							<caption><![CDATA[Private home of Paul Taylor. Photo Archives, NMHM, DCA 9588]]></caption>
+						</image>
+						<image>
+							<url>content/14578.jpg</url>
+							<caption><![CDATA[Plaza, Mesilla, New Mexico. Photo Archives, NMHM, DCA 14578]]></caption>
+						</image>
+						<image>
+							<url>content/009591.jpg</url>
+							<caption><![CDATA[Paul Taylor’s House. Photo Archives, NMHM, DCA 9591]]></caption>
+						</image>
+					</images>
+				</story>
+			</stories>
+		</section_four>
+		
+	</sections>
+	
+</data>

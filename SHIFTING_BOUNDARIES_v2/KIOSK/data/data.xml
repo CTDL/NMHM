@@ -1,0 +1,879 @@
+<?xml version="1.0"?>
+<sections>
+	<!-- Beginning of Section Encounters -->
+	<section id="section0">
+	<title>Encounters</title> <!-- Main menu title -->
+	<image>assets/story/section_title_one.png</image> <!-- used for section image title on bottom -->
+
+	<slides>
+		<!-- each section should have 4 slides with this data-->
+		<!-- Beginning of Slide Native Lands -->
+		<slide id="slide0-0" anchor="0"><!-- used for first slide that is just an image, -->
+			<image>
+				<file>assets/panels/story_encounters_00.jpg</file>
+			</image>
+		</slide>
+		<slide id="slide0-1" anchor="1">
+	        <title>Native Lands</title><!-- bottom nav button title -->
+	        <heading>What connects a people and a place?</heading>
+	        <description><![CDATA[
+				<p>Some Pueblo people in New Mexico today live where Spanish explorers
+	            first encountered their ancestors more than 450 years ago. Oral histories that
+	            sacred ones and ancient leaders brought them to this place, after travels of thousands
+	            of years, through trials and dangers. The pueblos they occupy today, and the lands
+	            around them, were given to their ancestors as the place on earth where they were
+	            meant to live. Here they learned to plant and harvest corn, to live on their
+	            lands in a balanced way, and to remain in this place forever. Pueblo people have
+	            stayed in present-day New Mexico through encounters with Navajos (Diné),
+	            Apaches (Inde), Comanches (Numunuh), Utes, Texans, Spanish and Mexicans, and
+	            finally settlers from the United States. Many of these people drew boundaries
+	            on the Pueblo homelands or claimed traditional Pueblo lands as their own. But
+	            boundaries divide things, and the Pueblos cannot be separated from this place.</p>
+			]]></description>
+			<quote><![CDATA[
+				<p>"Your father...made you, and it is he who has made the world,
+				the sun which you have seen, sky and many other things which you will see."</p>
+			]]></quote>
+	        <map id="1">
+				<title>Native Lands</title>
+	        	<image><file>assets/map/map_01.png</file></image>
+	        </map>
+	        <slideshow id="slideshow0-1">
+				<image>
+					<file>content/042780.jpg</file>
+					<caption><![CDATA[Santa Clara Pueblo, 1880. John K. Hillers, Photo Archives, NMHM, DCA 42780]]></caption>
+				</image>
+				<image>
+					<file>content/132144.jpg</file>
+					<caption><![CDATA[Laguna pueblo, 1925 – 1945. T. Harmon Parkhurst, Photo Archives, NMHM, DCA 132144]]></caption>
+				</image>
+				<image>
+					<file>content/140775.jpg</file>
+					<caption><![CDATA[Navajo winter and summer hogans, White River Canyon, Arizona. Bryce Elliot, Photo Archives, NMHM, DCA 140775]]></caption>
+				</image>
+				<image>
+					<file>content/004360.jpg</file>
+					<caption><![CDATA[Santo Domingo Pueblo, view from Mission Roof, September 30, 1880. Bryce Elliot, Photo Archives, NMHM,<br>DCA 4360]]></caption>
+				</image>
+				<image>
+					<file>content/031265.jpg</file>
+					<caption><![CDATA[Santo Domingo Pueblo, October 1, 1880. George C. Bennett, Photo Archives, NMHM, DCA 31265]]></caption>
+				</image>
+	        </slideshow>
+		</slide>
+
+		<!-- Beginning of Slide Spanish Colonization -->
+		<!-- each section should have 4 slides with this data-->
+		<!--<slide id="slide0.2">-->
+			<!--<image>-->
+				<!--<file>assets/panels/story_encounters_00.jpg</file>-->
+			<!--</image>&lt;!&ndash; used for first slide that is just an image, &ndash;&gt;-->
+		<!--</slide>-->
+		<slide id="slide0-2" anchor="2">
+			<title>Spanish Colonization</title><!-- bottom nav button title -->
+			<heading>In the late 1500s, Spanish land claims stretched from the tip of South America to Oregon and east 				to the Mississippi River.</heading>
+			<description><![CDATA[
+				<p>Before the Spanish crossed the Atlantic, they came to believe
+				that they had been entrusted with a sacred mission. After
+				seven centuries, they drove the Muslims from Spain in 1492.
+				The same year, ships flying the spanish flag landed in the
+				Americas. And soon Spanish soldiers and missionaries ruled
+				vast new lands, brought tens of thousands of souls and
+				subjects to God and King, and gathered unimaginable
+				wealth. The Catholic Church and Spanish crown claimed it
+				was their duty to bring salvation and civilization to all the
+				peoples of this "New World." Their kingdom stretched
+				across all the lands they occupied and stretches they had never seen.</p>
+			]]></description>
+			<quote><![CDATA[
+				<p>"In the same name of the most Holy Trinity...I wish to take possession of
+				the land today...in the vooice and name of the most Christian King,
+				our lord, don Felipe, the Second of this name.... I take and seize one,
+				two, and three times...without excepting anything and without
+				limitation, with the meadows, glens, and their pastures and watering
+				places...towns, cities, villas, castles, and strong houses and
+				dwellings...the leaf on the mountains to the rock in the river to the leaf on the
+				mountain."</p>
+				<p class="align-right">- Don Juan de Oñate, April 30, 1598</p>
+			]]></quote>
+			<map id="2">
+				<title>New Spain</title>
+				<image><file>assets/map/map_02.png</file></image>
+			</map>
+			<slideshow id="slideshow0-2">
+				<image>
+					<file>content/Armada_galleass.jpg</file>
+					<caption><![CDATA[An armada galeass, depicted in the anonymous Greenwich Cartoon. Public Domain]]></caption>
+				</image>
+				<image>
+					<file>content/3a38351u.jpg</file>
+					<caption><![CDATA[Coronado’s March, Colorado, ca. 1897. Courtesy of the Library of Congress]]></caption>
+				</image>
+				<image>
+					<file>content/MexicoOrNewSpain.jpg</file>
+					<caption><![CDATA[Mexico of New Spain, 1777. Fray Angélico Chávez History Library, NMHM, DCA, Map Collection 7.2 1777]]></caption>
+				</image>
+				<image>
+					<file>content/3a50528u.jpg</file>
+					<caption><![CDATA[Old mission church, New Mexico, built 1776 at Zuni, 1873. Timothy O’Sullivan, Courtesy of the Library of Congress]]></caption>
+				</image>
+				<image>
+					<file>content/031814.jpg</file>
+					<caption><![CDATA[Algodones, New Mexico. Photo Archives, NMHM, DCA 31814]]></caption>
+				</image>
+				<image>
+					<file>content/Transparency-1.jpg</file>
+					<caption><![CDATA[Oñate Medallion. Courtesy of the Archdiocese of Santa Fe Collection in the Museum of International Folk Art, NMHM, DCA L1.1957.49]]></caption>
+				</image>
+				<image>
+					<file>content/129403.jpg</file>
+					<caption><![CDATA[Oñate Inscription, August 18, 1940. Ralph H. Anderson, Photo Archives, NMHM, DCA 129403]]></caption>
+				</image>
+				<image>
+					<file>content/014769.jpg</file>
+					<caption><![CDATA[Corpus Christi procession. Photo Archives, NMHM, DCA 14769]]></caption>
+				</image>
+			</slideshow>
+		</slide>
+
+		<!-- Beginning of Slide Louisiana Purchase -->
+		<slide id="slide0-3" anchor="3">
+			<title>Louisiana Purchase</title><!-- bottom nav button title -->
+			<heading>In the span of forty years, the vast Louisiana Territory was
+			claimed, traded, or purchased by France, Spain, and
+			the United States, and yet all the people living on the land were Native Americans.
+			</heading>
+			<description><![CDATA[
+				France claimed the Louisians Territory in the late 1600s. The French
+				sold much of the lands to Spain in 1763 to keep them
+				from falling into the hands of the British. Forty years later,
+				Emperor Napoleon of France persuaded Spain to return the
+				territory to France, Within days, the French sold it to the
+				United States, partly to raise money to fight the British.
+				Beginning in 1803, the united States and Spain found
+				themselves sharing a new border more than a thousand miles
+				long, though neither nation knew exactly where that border
+				was. Both claimed as much land as they could--Spain
+				declared that Spanish territory stretched north to the
+				Missouri River and met the Louisiana Territory there. The
+				United States claimed that Louisiana reached west to the Rio
+				Grande, including all of present-day Texas and much of New Mexico.
+				The people who lived on the land generally had no
+				part in deciding where one empire ended and the next began.
+			]]></description>
+			<quote><![CDATA[
+				<p>"Is it not better that the opposite banks of the Mississippi should be
+				settled by our own brethren and children than by strangers of
+				another family?"</p>
+				<p class="align-right">-Thomas Jefferson</p>
+			]]></quote>
+			<map id="3">
+				<title>Louisiana Purchase</title>
+				<image><file>assets/map/map_03.png</file></image>
+			</map>
+			<slideshow id="slideshow0-3">
+				<image>
+					<file>content/segesser_II.jpg</file>
+					<caption><![CDATA[Segesser Hide (depicting Spanish, Native and French conflict), History Collection, NMHM, DCA 11005/45<br>Museum Purchase]]></caption>
+				</image>
+				<image>
+					<file>content/ct000654.jpg</file>
+					<caption><![CDATA[Louisiana (map of Louisiana Purchase), 1814. Fray Angélico Chávez History Library, NMHM, DCA, Map Collection 76.3 1814 (1804)]]></caption>
+				</image>
+				<image>
+					<file>content/His-oo-san-chess.jpg</file>
+					<caption><![CDATA[“His-oo-san-chees,” The Little Spaniard, 1834. Image from John L. Kessell, <span class="imageCaptionItalic">Kiva, Cross, and Crown: The Pecos Indians and New Mexico, 1540 – 1840</span>. Washington, DC: National Park Service, 1979. p. 231. Original by George Catlin, 1834]]></caption>
+				</image>
+				<image>
+					<file>content/28-0206a.jpg</file>
+					<caption><![CDATA[Treaty between the United States of America and the French Republic ceding the province of Louisiana to the United States, April 30, 1803. Courtesy of the National Archives]]></caption>
+				</image>
+				<image>
+					<file>content/3g03410u.jpg</file>
+					<caption><![CDATA[<span class="imageCaptionItalic">War dance of the Sauks and Foxes</span>, 1825-1834. P. Rindisbacher, printed by C. Hullmandel, Courtesy of the<br>Library of Congress]]></caption>
+					<caption><![CDATA[<span class="imageCaptionItalic">War dance of the Sauks and Foxes</span>, 1825 – 1834. P. Rindisbacher, printed by C. Hullmandel, Courtesy of the Library of Congress]]></caption>
+				</image>
+				<image>
+					<file>content/3g03254u.jpg</file>
+					<caption><![CDATA[Thomas Jefferson, third president of the United States. Lithographed and published by H. Robinson, N.Y. & Washington, D.C., 1840 – 1851. Courtesy of the Library of Congress]]></caption>
+				</image>
+			</slideshow>
+		</slide>
+	</slides>
+</section>
+	<!-- Beginning of Section Whose Nation -->
+	<section id="section1">
+		<title>Whose Nation</title> <!-- Main menu title -->
+		<image><file>assets/story/section_title_two.png</file></image> <!-- used for section image title on bottom -->
+
+		<slides>
+			<!-- each section should have 4 slides with this data-->
+			<!-- Beginning of Mexican-American War -->
+			<slide id="slide1-0" anchor="0"><!-- used for first slide that is just an image, -->
+				<image>
+					<file>assets/panels/story_whose_nation_00.jpg</file>
+				</image>
+			</slide>
+			<slide id="slide1-1" anchor="1">
+				<title>Mexican-American War</title><!-- bottom nav button title -->
+				<heading>The boundary between the United States and Mexico was fixed by treaty in 1819, until Mexico and the United States went to war in 1846.</heading>
+				<description><![CDATA[
+					<p>For years after the Louisiana Purchase, the United States
+					and Spain contested the boundary between them. Finally in
+					1819, John Quincy Adams and Spanish envoy Luis de Onís
+					negotiated a treaty that fixed the boundary all across the
+					West. Both nations ratified the agreement, but it began to
+					unravel almost immediately. Mexico won independence from
+					Spain in 1821. Texas declared independence from Mexico in
+					1836, and joined the Unite States nine years later. The new
+					state of Texas claimed a large tract of land also claimed by Mexico.</p>
+					<p>This boundary dispute touched off the Mexican-American
+					War in 1846. The U.S. population was growing and pushing
+					west. President James Polk envisioned a nation that
+					stretched to the Pacific. In Mexico City, the government had
+					grave difficulties, both politically and financially, sustaining
+					such a large territory, including New Mexico. In 1846,
+					Mexican and American soldiers clashed along the border, and
+					within two years the boundary changed as U.S. troops
+					defeated Mexico.</p>
+				]]></description>
+				<quote><![CDATA[
+					<p>"Mexico has passed the boundary of the United States, has invaded
+					our territory and shed American blood on Americans soil. She has
+					proclaimed that hostilities have commenced, and that the two
+					nations are at war."</p>
+					<p class="align-right">-President James K. Polk</p>
+					<p>"We are not only supposed to remain silent while our unjust
+					neighbors make off with the lands which they had at first selected
+					for themselves, but we must also pay them for earning and taking
+					them and others as well, and finally we are expected to confess that
+					they had the right to do all this."</p>
+					<p class="align-right">-Manuel Crecencio Rejón</p>
+				]]></quote>
+				<!-- No Map Button on this slide -->
+				<map id="">
+					<title></title>
+					<image><file></file></image>
+				</map>
+				<slideshow id="slideshow1-1">
+					<image>
+						<file>content/3b48557u.jpg</file>
+						<caption><![CDATA[Battle of Cerro Cordo, April 18, 1847. Courtesy of the Library of Congress]]></caption>
+					</image>
+					<image>
+						<file>content/3b49849u.jpg</file>
+						<caption><![CDATA[The Battle of Sacramento, fought February 28, 1847. Courtesy of the Library of Congress]]></caption>
+					</image>
+					<image>
+						<file>content/3g02956u.jpg</file>
+						<caption><![CDATA[Battle of Resaca de la Palma, May 9, 1846. Capture of General Vega by the gallant Captain May. Courtesy of the Library of Congress]]></caption>
+					</image>
+					<image>
+						<file>content/3g02955u.jpg</file>
+						<caption><![CDATA[Landing of the American forces under General Scott, at Vera Cruz, March 9, 1847, ca.1847. Courtesy of the<br>Library of Congress]]></caption>
+					</image>
+					<image>
+						<file>content/3a24796u.jpg</file>
+						<caption><![CDATA[President James K. Polk, 1845. Courtesy of the Library of Congress]]></caption>
+					</image>
+					<image>
+						<file>content/3a22346u.jpg</file>
+						<caption><![CDATA[General D. Antonio Lopez De Santa-Anna, president of the Republic of Mexico, ca. 1847. Courtesy of the<br>Library of Congress]]></caption>
+					</image>
+					<image>
+						<file>content/3b09860u.jpg</file>
+						<caption><![CDATA[The Battle of Mexico, 1847. Courtesy of the Library of Congress]]></caption>
+					</image>
+					<image>
+						<file>content/BrilliantCharge.jpg</file>
+						<caption><![CDATA[The Brilliant Charge of Captain May, 1846. Fray Angélico Chávez History Library, DCA, NMHM, Graphics Collection 3-89]]></caption>
+					</image>
+				</slideshow>
+			</slide>
+			<slide id="slide1-2" anchor="2">
+				<title>Treaty of Guadalupe Hidalgo</title><!-- bottom nav button title -->
+				<heading>For Mexico, the price of peace at the end of the Mexican-
+					American War was a new boundary with the United
+					States, and the loss of half of Mexico's territory.
+				</heading>
+				<description><![CDATA[
+					<p>At the end of the Mexican-American War, factions within
+					both the United States and Mexico had wildly different ideas
+					about how large a price Mexico should pay for its loss. But
+					the original area in dispute--a swath of land between the Rio
+					Grande and Nueces River in present-day Texas--would not
+					be nearly enough of a concession. Some U.S. interests hoped
+					to erase the boundary between Mexico and the United
+					States, annex the entire country, and end its existence as a
+					separate nation. In the end, the two nations settled on an
+					area of about 525,000 square miles, a little more than half of
+					Mexico's territory. This land eventually became all of Texas,
+					California, and Utah, most of New Mexico and Arizona, and parts
+					of Colorado and Wyoming.</p>
+					<p>Other disputes over boundaries grew from the wording of the
+					treaty itself. Mexican citizens who chose to remain in the
+					United States were guaranteed the right to "retain their
+					property." If they chose American citizenship, they were
+					entitled to "the free enjoyment of their liberty and
+					property." But the boundaries of their property, legally and
+					geographically, were another matter. The U.S. understood
+					boundaries very differently than the Mexicans and Spanish
+					before them.</p>
+				]]></description>
+				<quote><![CDATA[
+					<p>"This must be a proud moment for you; no less proud for you than
+					humiliating for us."</p>
+					<p class="align-right">-Don Bernardo Couto to American negotiator Nicholas trist, at the signing
+					of the Treaty of Guadalupe Hidalgo, February 2, 1848</p>
+					<p>"Could those Mexicans have seen into my heart at that moment,
+					they would have known that my feeling of shame as an American was
+					far stronger than theirs could have been as Mexicans. For though it
+					would not have done for me to say so there, that was a thing for
+					every right-minded American to be ashamed of, and I was of it."</p>
+					<p class="align-right">-U.S. negotiator Nicholas Trist, reflecting on the treaty</p>
+				]]></quote>
+				<map id="5">
+					<title>Treaty of Guadalupe Hidalgo</title>
+					<image><file>assets/map/map_05.png</file></image>
+				</map>
+				<slideshow id="slideshow1-2">
+					<image>
+						<file>content/Disturnell1846.jpg</file>
+						<caption><![CDATA[Mapa de los Estados Unidos de Méjico, 1846. Fray Angélico Chávez History Library, NMHM, DCA,<br>Map Collection 7.2 1846]]></caption>
+					</image>
+					<image>
+						<file>content/Treaty_48.jpg</file>
+						<caption><![CDATA[Treaty of Guadalupe Hidalgo, 1848. Courtesy of the National Archives]]></caption>
+					</image>
+					<image>
+						<file>content/07635u.jpg</file>
+						<caption><![CDATA[Campaign poster for Democratic nominee Zachary Taylor, the victorious Mexican War general, 1848. James Ackerman, Courtesy of the Library of Congress]]></caption>
+					</image>
+					<image>
+						<file>content/02914a.jpg</file>
+						<caption><![CDATA[Nicholas Philip Trist, 1855 – 1865. Brady-Handy Photograph Collection, Courtesy of the Library of Congress]]></caption>
+					</image>
+				</slideshow>
+			</slide><!-- Beginning of Slide Godsden Purchase -->
+			<slide id="slide1-3" anchor="3">
+				<title>Godsden Purchase</title><!-- bottom nav button title -->
+				<heading>Five years after the Mexican-American War, the United
+					States needed more land in the Southwest for railroad
+					route to California. The U.S. made Mexico an offer it
+					couldn't refuse.
+				</heading>
+				<description><![CDATA[
+					<p>Boundaries established at the cost of blood and gold can still
+					vanish quickly. Only five years after the Treaty of Guadalupe
+					Hidalgo, the United States sent James Gadsden to Mexico to
+					negociate a new boundary between the countries. Godsden's
+					most important goal was to acquire an expanse an expanse of land across
+					southern New Mexico and Arizona for railroad to the
+					Pacific. The Mexican government was still in turmoil after the
+					war with the United States and desperately in need of cash.
+					The United States gained some 29,670 square miles of land
+					for $10 million.</p>
+					<p>The treaty solved another boundary issue. The new border
+					between the two nations meant nothing to Apaches (Inde)
+					and other native peoples, and they raided across northern
+					Mexico and southwestern United States as they had for
+					obligated the United States to protect Mexican citizens from
+					these raids, and the cost rose into the millions. The Gadsden
+					Treaty erased the new boundary between the United States
+					and Mexico, at least in the matter of Apache (Inde) raiders
+					crossing it as they headed south.</p>
+				]]></description>
+				<quote><![CDATA[
+					<p>"The Mexican Republic agrees to designate the following as her true
+					limits with the United States for the future....Begining in the Gulf
+					of Mexico, three leagues from land, opposite the mouth of the Rio
+					grande, as provided in the 5th article of the treaty of Guadalupe
+					Hidalgo; thence, as defined in the said article, up the middle of that
+					river..."</p>
+					<p class="align-right">-Gadsden Purchase, 1853</p>
+				]]></quote>
+				<map id="7">
+					<title>Gadsden Purchase</title>
+					<image><file>assets/map/map_07.png</file></image>
+				</map>
+				<slideshow id="slideshow1-3">
+					<image>
+						<file>content/rr001730.jpg</file>
+						<caption><![CDATA[1855 Pacific Railway Route Map, 1857. Courtesy of the Library of Congress, Geography and Map Division]]></caption>
+					</image>
+					<image>
+						<file>content/089772.jpg</file>
+						<caption><![CDATA[Engine No. 2511, Southern Pacific R.R., last regular train on the Cloudcroft branch, 1847. Photo Archives, NMHM, DCA 89772]]></caption>
+					</image>
+					<image>
+						<file>content/056152.jpg</file>
+						<caption><![CDATA[Unidentified Apache group. A. Frank Randall, Photo Archives, NMHM, DCA 56152]]></caption>
+					</image>
+					<image>
+						<file>content/057237.jpg</file>
+						<caption><![CDATA[Mesilla restaurant, later La Pasta Restaurant. Photo Archives, NMHM, DCA 57237]]></caption>
+					</image>
+					<image>
+						<file>content/122144.jpg</file>
+						<caption><![CDATA[First San Albino Catholic Church, built 1852, under renovation, Mesilla, New Mexico, ca. 1885 – 1890, Photo Archives, NMHM, DCA 122144]]></caption>
+					</image>
+					<image>
+						<file>content/036115.jpg</file>
+						<caption><![CDATA[Mescalero Apache Group, ca. 1906. H.F. Robinson, Photo Archives, NMHM, DCA 36115]]></caption>
+					</image>
+					<image>
+						<file>content/056344.jpg</file>
+						<caption><![CDATA[Street Scene, Mesilla, New Mexico. New Mexico State Tourist Bureau, Photo Archives, NMHM, DCA 056344]]></caption>
+					</image>
+					<image>
+						<file>content/028266.jpg</file>
+						<caption><![CDATA[Chiricahua Apache Indians. James N. Ffileong, Photo Archives, NMHM, DCA 28266]]></caption>
+					</image>
+					<image>
+						<file>content/013808.jpg</file>
+						<caption><![CDATA[“Mexican Family,” October 16, 1895. Martinez Collection, Photo Archives, NMHM, DCA 13808]]></caption>
+					</image>
+				</slideshow>
+			</slide>
+		</slides>
+	</section>
+	<!-- Beginning of Section Becoming New Mexico -->
+	<section id="section2">
+		<title>Becoming New Mexico</title> <!-- Main menu title -->
+		<image><file>assets/story/section_title_three.png</file></image> <!-- used for section image title on bottom -->
+
+		<slides>
+			<!-- each section should have 4 slides with this data-->
+			<!-- Beginning of Compromise of 1850 -->
+			<slide id="slide2-0" anchor="0"><!-- used for first slide that is just an image, -->
+				<image>
+					<file>assets/panels/story_becoming_nm_00.jpg</file>
+				</image>
+			</slide>
+			<slide id="slide2-1" anchor="1">
+				<title>Compromise of 1850</title><!-- bottom nav button title -->
+				<heading>The question of slavery in the U.S. was a factor in
+				settling a long-staning border dispute between Texas
+				and New Mexico.
+				</heading>
+				<description><![CDATA[
+					<p>The vast territory added to the United States at the end of
+					the Mexican-American War immediately sparked controversy
+					in Congress. Legislators knew that the territory would
+					eventually divide into different states that would one day join
+					the Union. But what would their new boundaries be, and
+					would they join as slave states or free?</p>
+					<p>One trade-off in this complicated mixture of compromises
+					finally fixed the border between Texas and New Mexico. For
+					decades, Texas had claimed land west to the Rio Grande. But
+					Texas also was deep in debt. Texas agreed to drop its land
+					claims north and west of its current borders and the federal
+					government assumed the state's debts. The residents of the
+					new Territory of New Mexico would decide for themselves
+					whether to permit slavery. California entered the Union as a
+					free state. Southern slaveholders put in place a new Fugitive
+					slave Act that compelled law officers and other officials
+					around the country to aid in the capture of runaway slaves.
+					These compromises helped hold off open conflict between the
+					North and South; that boundary would be crossed only a
+					decade later.</p>
+				]]></description>
+				<quote><![CDATA[
+					<p>"Both California and New Mexico are likely to come in as free; and
+					therefore some degree of disappointment and surprise has resulted.
+					In other words, it is obvious that the question which has so long
+					harassed the country, and at some times very seriously alarmed the
+					minds of wise and good men, has come upon us for fresh discussion;
+					the question of slavery in these United States."</p>
+					<p class="align-right">-Daniel Webster, speech in U.S. Senate, March 7, 1850</p>
+				]]></quote>
+				<!-- No Map Button on this slide -->
+				<map id="6">
+					<title>Compromise 1850</title>
+					<image><file>assets/map/map_06.png</file></image>
+				</map>
+				<slideshow id="slideshow2-1">
+					<image>
+						<file>content/02601u.jpg</file>
+						<caption><![CDATA[<span class="imageCaptionItalic">Union</span>, a symbolic group portrait eulogizing recent legislative efforts, notably the Compromise of 1850, to preserve the Union, ca. 1852. Painted By Tompkins H. Matteson, engraved by Henry S. Sadd, Courtesy of the Library of Congress]]></caption>
+					</image>
+					<image>
+						<file>content/1847_Map.jpg</file>
+						<caption><![CDATA[Map of Mexico, including Yucatan and Upper California, 1847. Fray Angélico Chávez History Library, NMHM, DCA, Map Collection 7.2 1847a]]></caption>
+					</image>
+				</slideshow>
+			</slide><!-- Beginning of Slide State Boundaries -->
+			<slide id="slide2-2" anchor="2">
+				<title>State Boundaries</title><!-- bottom nav button title -->
+				<heading>Economic interest, local customs, and political all
+					influence state borders.
+				</heading>
+				<description><![CDATA[
+					<p>New Mexico Territory once included present-day New
+					Mexico and Arizona, and tracts of land that today are small
+					parts of other southwestern states. From the founding of the
+					territory in 1850, different interests tried to carve it up in
+					different ways. Sixty-two years later, it joined the nation as
+					the 47th state.</p>
+
+					<p>In 1862 the Confederate army invaded the territory and tried
+					to reorganize it along horizontal lines, with Arizona on the
+					bottom and New Mexico occupying roughly the northern
+					half. Roughly fifty years later, just as advocates for statehood
+					had made progress toward joining the rest of the United
+					States, politicians in Washington came up with a "jointure"
+					proposal, which would have admitted Arizona and New
+					Mexico as one big state. Across the rest of the country, some
+					people hestitated to include New Mexicans within the
+					boundaries of the United States. They were considered too
+					Hispanic Catholic, spoke little English, and lived by different
+					territorial situation as second-class citizenship, and
+					pressured their fellow New Mexicans and the national
+					government to put the state of New Mexico on the national map.</p>
+				]]></description>
+				<quote><![CDATA[
+					<p>"Our Grandfathers had no idea of living in any other place except
+					our own land, and I don't think it is right for us to do what were
+					taught not to do."</p>
+
+					<p class="align-right">-Navajo Leader Barboncito, to Gen. William Sherman, May 28, 1868</p>
+				]]></quote>
+				<map id="">
+					<title></title>
+					<image><file></file></image>
+				</map>
+				<slideshow id="slideshow2-2">
+					<image>
+						<file>content/NM-AZHorizontal.jpg</file>
+						<caption><![CDATA[California, Territories of New Mexico and Utah, 1863. Fray Angélico Chávez History Library, NMHM, DCA, Map Collection 78.9 1863]]></caption>
+					</image>
+					<image>
+						<file>content/015813.jpg</file>
+						<caption><![CDATA[Old Holbrook, Arizona, ca. 1883. Ben Wittick, Photo Archives, NMHM, DCA 15813]]></caption>
+					</image>
+					<image>
+						<file>content/106180.jpg</file>
+						<caption><![CDATA[Surveillance aircraft patrolling the border along the Rio Grande, ca. 1950. New Mexico Magazine Collection,<br>Photo Archives, NMHM, DCA 106180]]></caption>
+					</image>
+					<image>
+						<file>content/013309.jpg</file>
+						<caption><![CDATA[Thomas B. Catron, ca. 1917. Wesley Bradfield, Photo Archives, NMHM, DCA 13309]]></caption>
+					</image>
+					<image>
+						<file>content/140378.jpg</file>
+						<caption><![CDATA[“Carload of Governors,” Herbert Hagerman, Miguel A. Otero, William T. Thornton, L. Bradford Prince. Aaron B. Craycraft, Photo Archives, NMHM, DCA 140378]]></caption>
+					</image>
+				</slideshow>
+				
+			</slide><!-- Beginning of Slide American Indian Policy -->
+			<slide id="slide2-3" anchor="3">
+				<title>American Indian Policy</title><!-- bottom nav button title -->
+				<heading>In New Mexico, people lived on the land in different
+					ways, and some of these ways could not co-exist.
+					Becoming New Mexico is partly a matter of working out
+					these differences, by treaty, force, custom, and law.
+				</heading>
+				<description><![CDATA[
+					<p>The Native peoples of the Southwest have lived and moved
+					across the region's vast landscape for thousands of years.
+					They exchanged goods, arts, and ideas with other Native
+					peoples that spread still farther across the continent. And in
+					the deserts, mountains, and river valleys of the Southwest,
+					they fashioned several different ways of life--as
+					agriculturalists, hunters, gatherers, raiders, and mixture of
+					all. Their ways of life linked them to sacred places and
+					familiar landscapes. But the boundaries of Native peoples
+					had nothing to do with lines on map.</p>
+					<p>The U.S. government's Indian policies meant a twofold
+					change for many Native Americans. First they must give up
+					their way of life that had no legal boundaries--surveyed,
+					recorded, and known to all. And second, they must move
+					within new boundaries--inside houses, on lots, near crop
+					fields and garden plots, within the confines of the
+					reservation. Native peoples and cultures perished within
+					these new boundaries. A few such as Pueblos and Navajos
+					(Diné) in New Mexico, found a way to stay on their
+					traditional homelands, despite the new boundaries all around them.</p>
+				]]></description>
+				<quote><![CDATA[
+					<p>"Our Grandfathers had no idea of living in any other place axcept
+					our own land, and I don't think it is right for us to do what we were
+					taught not to do."</p>
+					<p class="align-right">-Navajo Leader Barboncito, to Gen. William Sherman, May 28, 1868</p>
+				]]></quote>
+				<map id="">
+					<title></title>
+					<image><file></file></image>
+				</map>
+				<slideshow id="slideshow2-3">
+					<image>
+						<file>content/3b45614u.jpg</file>
+						<caption><![CDATA[Near the base of Old Shiprock: Two Navajo Indians on horses with butte in background, ca. 1914. Courtesy of the Library of Congress]]></caption>
+					</image>
+					<image>
+						<file>content/05081u.jpg</file>
+						<caption><![CDATA[Pueblos bring first protest since Lincoln: Four Pueblo men (L – R) Santiago Naranjo, Waihusing, James Miller, and Jesus Baca, January 15, 1923. Underwood & Underwood, Courtesy of the Library of Congress]]></caption>
+					</image>
+					<image>
+						<file>content/016038.jpg</file>
+						<caption><![CDATA[“Navajo Woman Weaving a Blanket,” ca. 1980 – 1990. Ben Wittick, Photo Archives, NMHM, DCA 16038]]></caption>
+					</image>
+					<image>
+						<file>content/160902.jpg</file>
+						<caption><![CDATA[General William Tecumseh Sherman. Photo Archives, NMHM, DCA 160902]]></caption>
+					</image>
+					<image>
+						<file>content/009581.jpg</file>
+						<caption><![CDATA[Old Mesilla plaza, New Mexico, ca. 1920. Photo Archives, NMHM, DCA 9581]]></caption>
+					</image>
+					<image>
+						<file>content/048716.jpg</file>
+						<caption><![CDATA[Barboncito, Chief of the Navajo Tribe in New Mexico. Photo Archives, NMHM, DCA 48716]]></caption>
+					</image>
+					<image>
+						<file>content/016482.jpg</file>
+						<caption><![CDATA[At Supplee’s Ranch & Trading Store near Wingate. Ben Wittick, Photo Archives, NMHM, DCA 16482]]></caption>
+					</image>
+					<image>
+						<file>content/045814.jpg</file>
+						<caption><![CDATA[Group of Ute and Jicarilla Indians including Agent W. F. M. Army, ca. 1868. Nicholas Brown, Photo Archives, NMHM, DCA 45814]]></caption>
+					</image>
+					<image>
+						<file>content/028539.jpg</file>
+						<caption><![CDATA[Fort Sumner, New Mexico Street View, ca. 1866. Photo Archives, NMHM, DCA 28539]]></caption>
+					</image>
+					<image>
+						<file>content/016468.jpg</file>
+						<caption><![CDATA[Navajo loom and hogan, ca. 1950. Ben Wittick, Photo Archives, NMHM, DCA 16468]]></caption>
+					</image>
+					<image>
+						<file>content/036599.jpg</file>
+						<caption><![CDATA[A.W. Cougar & Co., ca. 1884. Mary Lou Skinner, Photo Archives, NMHM, DCA 36599]]></caption>
+					</image>
+					<image>
+						<file>content/028535.jpg</file>
+						<caption><![CDATA[Navajo scouts waiting to be paid at Fort Wingate, ca. 1886. Lynn Baily (U.S. Army Signal Corps.), Photo Archives, NMHM, DCA 28535]]></caption>
+					</image>
+					<image>
+						<file>content/05084u.jpg</file>
+						<caption><![CDATA[Group of Pueblo Indians photographed at the U.S. Capitol, January 23, 1923. National Photo Company, Courtesy of the Library of Congress]]></caption>
+					</image>
+				</slideshow>
+			</slide>
+		</slides>
+	</section>
+	<!-- Beginning of Section Homelands -->
+	<section id="section3">
+		<title>Homelands</title> <!-- Main menu title -->
+		<image><file>assets/story/section_title_four.png</file></image> <!-- used for section image title on bottom -->
+
+		<slides>
+			<!-- each section should have 4 slides with this data-->
+			<!-- Beginning of Taos Rebellion -->
+			<slide id="slide3-0" anchor="0"><!-- used for first slide that is just an image, -->
+				<image>
+					<file>assets/panels/story_becoming_nm_00.jpg</file>
+				</image>
+			</slide>
+			<slide id="slide3-1" anchor="1">
+				<title>Taos Rebellion</title><!-- bottom nav button title -->
+				<heading>What if a Mexican town doesn't agree to become a U.S.
+					town, even after the U.S. Army defeats Mexico in battle?
+				</heading>
+				<description><![CDATA[
+					<p>By the 1840's, Taos had been a crossroads for
+					centuries--between Native people, Spanish and later
+					Mexican settlers, and trappers and traders from France and
+					the United States. Some U.S. citizens settled there, started
+					businesses, married local women, and raised families. The
+					invasion of U.S. troops during the Mexican-American War
+					redrew the boundaries around Taos. This time, hundreds of
+					Pueblo and Mexican people saw a threat to their way of life
+					and rose up to defend their homelands. On January 19, 1847,
+					the Rebels killed the new governor of the New Mexico
+					territory, Charles Bent, and several others.</p>
+					<p>Sent to put down the revolt, U.S. Army Col. Sterling Price
+					said, "It appeared to be the object of the insurrectionists to
+					put to death every...[m]an who had accepted office under
+					the American government." Price and his soldiers
+					surrounded many of the rebels and their families in the
+					church at Taos Pueblo and killed roughly 150 people.
+					Approximately twenty rebel leaders were captured, tried,
+					and hanged. Thought they were fighting against the soldiers
+					and officials of another country, they were convicted of
+					murder and treason. Can men defending their country be
+					traitors?</p>
+				]]></description>
+				<quote><![CDATA[
+					<p>"I received information from a Mexican friendly to our Government
+					that a conspiracy was on foot among the native Mexicans, having for
+					its object the expulsion of the United States troops and civil
+					authorities from the Territory."</p>
+					<p class="align-right">-Charles Bent, December 26, 1846</p>
+				]]></quote>
+				<slideshow id="slideshow3-1">
+					<image>
+						<file>content/104445.jpg</file>
+						<caption><![CDATA[Fernando de Taos, New Mexico, ca. 1885. George E. Mellen, Photo Archives, NMHM, DCA 104445]]></caption>
+					</image>
+					<image>
+						<file>content/052337.jpg</file>
+						<caption><![CDATA[Congressman Manuel Luján and President Richard Nixon, 1971. Photo Archives, NMHM, DCA 52337]]></caption>
+					</image>
+					<image>
+						<file>content/04449.jpg</file>
+						<caption><![CDATA[Mission Ruins, Taos, New Mexico, ca. 1935. T. Harmon Parkhurst, Photo Archives, NMHM, DCA 4449]]></caption>
+					</image>
+				</slideshow>
+				<!-- No Map Button on this slide -->
+				<map id="">
+					<title></title>
+					<image><file></file></image>
+				</map>
+			</slide>
+			<slide id="slide3-2" anchor="2">
+				<title>Land Grants</title><!-- bottom nav button title -->
+				<heading>Over centuries, custom and tradition often evolve into
+					law. Land grants in New Mexico reflect different
+					customs, obligations, measurements, and legal traditions
+					across the landscape.
+				</heading>
+				<description><![CDATA[
+					<p>The Treaty of Guadalupe Hidalgo stated clearly that the
+					people who owned land that would become part of the United
+					States had an indisputable right to their property. The way
+					some of these former Mexicans owned their land was
+					different than in the United States, and opened the door to a
+					wave of disputes that continues to this day.</p>
+					<p>In 1848, some communities across New Mexico owned tracts
+					of land in common--for the benefit of all of their members.
+					These common lands were part of land grants given to
+					citizens first by the Spanish king and later by the government
+					of Mexico. By law and custom, a piece of paper spelling out
+					the boundaries of common lands was not the sole key to
+					ownership, and often didn't exist. More important was a
+					community's understanding of the extent of its lands, and
+					the decisions of local leaders and councils over the years.
+					These ways of owning and describing land counted for little
+					in the U.S. legal system. Lawyers, business interests, and
+					speculators challenged these land grants in courts and
+					government offices. Within sixty years, roughly 90 percent of
+					the common lands in New Mexico no longer belonged to their
+					communities.</p>
+				]]></description>
+				<quote><![CDATA[
+					<p>"The law now in force, requiring the surveyor general to ascertain
+					origin, nature, character, and extent of all claims to land under
+					the laws, usages, and customs of Spain and Mexico...after thirteen
+					years' experience, has failed utterly to accomplish the purposes
+					intended by it."</p>
+					<p class="align-right">-New Mexico Surveyor John A. Clark, 1867</p>
+				]]></quote>
+				<map id="">
+					<title></title>
+					<image><file></file></image>
+				</map>
+				<slideshow id="slideshow3-2">
+					<image>
+						<file>content/Landgrants1920(s).jpg</file>
+						<caption><![CDATA[New Mexico, 1920. Fray Angélico Chávez History Library, NMHM, DCA Map Collection 78.9 E 1920s]]></caption>
+					</image>
+					<image>
+						<file>content/005526.jpg</file>
+						<caption><![CDATA[Irrigation acequia, New Mexico, 1935. T. Harmon Parkhurst, Photo Archives, NMHM, DCA 5526]]></caption>
+					</image>
+					<image>
+						<file>content/068820.jpg</file>
+						<caption><![CDATA[Sheep threshing wheat in northern New Mexico, using methods similar to those used in Spain over two hundred years earlier, ca. 1925 – 1945. T. Harmon Parkhurst, Photo Archives, NMHM, DCA 68820]]></caption>
+					</image>
+					<image>
+						<file>content/068901.jpg</file>
+						<caption><![CDATA[Typical scene of sheep grazing on common lands in northern New Mexico, 1935. T. Harmon Parkhurst,<br>Photo Archives, NMHM, DCA 68901]]></caption>
+					</image>
+					<image>
+						<file>content/061298.jpg</file>
+						<caption><![CDATA[Dry-farmed field near Las Vegas, New Mexico, 1909. Jesse Nusbaum, Photo Archives, NMHM, DCA 61298]]></caption>
+					</image>
+					<image>
+						<file>content/022697.jpg</file>
+						<caption><![CDATA[Winnowing wheat, Picuris Pueblo, New Mexico, ca. 1935. T. Harmon Parkhurst, Photo Archives, NMHM,<br>DCA 22697]]></caption>
+					</image>
+				</slideshow>
+			</slide><!-- Beginning of Slide Mesilla-A Town in Two Countries -->
+			<slide id="slide3-3" anchor="3">
+				<title>Mesilla-A Town in Two Countries</title><!-- bottom nav button title -->
+				<heading>Between 1850, and 1854, both Mexico and the United
+					States claimed Mesilla. Most residents hoped to remain
+					Mexican, but internationally the town was in no man's
+					land. By treaty and purchase, the Mexican and U.S.
+					governments decided that Mesilla should join the United States.
+				</heading>
+				<description><![CDATA[
+					<p>On March 1, 1850, Rafeal Ruelas and roughly sixty other men
+					and women founded the village of Mesilla, Mexico. Most of
+					the founding families livec on land that became part if the
+					United States after the Mexican-American War. They
+					established Mesilla to remain Mexican, but they lived in a
+					land of fluid boundaries.</p>
+					<p>Following the Treaty of Guadalupe Hidalgo, the map that
+					surveyors used to help determine the boundary between the
+					United States and Mexico had a serious error. Both nations
+					claimed the fertile Mesilla Valley. But the valley was an ideal
+					route for a railroad across the Southwest, and powerful
+					interests in the U.S. wanted that railroad. With the
+					Gadsden Purchase in 1853, also called the Treaty of Mesilla,
+					the boundary between the two nations moved west, and the
+					people of Mesilla found themselves in the United States
+					again.</p>
+					<p>In 1862, Confederate troops swept through the valley during
+					the Civil War and declared Mesilla the capital of the new
+					Territory of Arizona. Union troops soon pushed back the
+					Confederate army, and the new territory survived less than
+					two years, shorter the the original town of Mesilla, Mexico.
+					Through this and more, the town survives, and mant of
+					Mesilla's 2,000 residents are descendants of the original
+					founding families.</p>
+				]]></description>
+				<quote><![CDATA[
+					<p>"We didn't cross the border, the border crossed us."</p>
+					<p class="align-right">-José Antonio Burciaga, a Chicano writer, muralista, actor and activist,
+					and a seminal figure in the Chicano Movement of the 1970s.</p>
+				]]></quote>
+				<map id="">
+					<title></title>
+					<image><file></file></image>
+				</map>
+				<slideshow id="slideshow3-3">
+					<image>
+						<file>content/NM-MAG-Border-Patrol.jpg</file>
+						<caption><![CDATA[Surveillance aircraft patrolling the border along the Rio Grande, ca. 1950. New Mexico Magazine Collection, Photo Archives, NMHM, DCA]]></caption>
+					</image>
+					<image>
+						<file>content/056344.jpg</file>
+						<caption><![CDATA[Street Scene, Mesilla, New Mexico, 1961. New Mexico State Tourist Bureau, Photo Archives, NMHM, DCA 056344]]></caption>
+					</image>
+					<image>
+						<file>content/009581.jpg</file>
+						<caption><![CDATA[Old Mesilla plaza, New Mexico, ca. 1920. Photo Archives, NMHM, DCA 9581]]></caption>
+					</image>
+					<image>
+						<file>content/014299.jpg</file>
+						<caption><![CDATA[The Catholic Church of San Albino (built 1852), Mesilla, New Mexico, ca. 1881. Striles & Burke, Photo Archives, NMHM, DCA 14299]]></caption>
+					</image>
+					<image>
+						<file>content/009588.jpg</file>
+						<caption><![CDATA[Private home of Paul Taylor. Photo Archives, NMHM, DCA 9588]]></caption>
+					</image>
+					<image>
+						<file>content/14578.jpg</file>
+						<caption><![CDATA[Plaza, Mesilla, New Mexico. Photo Archives, NMHM, DCA 14578]]></caption>
+					</image>
+					<image>
+						<file>content/009591.jpg</file>
+						<caption><![CDATA[Paul Taylor’s House. Photo Archives, NMHM, DCA 9591]]></caption>
+					</image>
+				</slideshow>
+			</slide>
+		</slides>
+	</section>
+</sections>

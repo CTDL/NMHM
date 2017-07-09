@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The Segesser Hides</title>
+	<!-- openseadragon -->
+    <script type="text/javascript" src='build/openseadragon/openseadragon.js'></script>
+	<!-- jQuery -->
+    <script type="text/javascript" src='lib/jquery-1.9.1.min.js'></script>
+	<!-- jQuery xml to json parser-->
+	<script type="text/javascript" src='lib/xml-to-json/jquery.xml2json.js'></script>
+	<!-- handlebars JS -->
+	<script type="text/javascript" src='lib/handlebars-v4.0.5.js'></script>	
+	<!-- noUISlider -->
+	<script type="text/javascript" src='lib/noUiSlider.9.2.0/nouislider.js'></script>	
+	<link rel="stylesheet" href="lib/noUiSlider.9.2.0/nouislider.min.css">	
+    
+	
+    <!-- <link title="screen"  rel="stylesheet" href="css/style.css"> -->
+	<link title="fullscreen"  rel="stylesheet" href="css/kiosk.css">
+	
+
+   
+</head>
+<body>
+	
+	<div id="main">
+		
+			
+		<script id="intro-template" type="text/x-handlebars-template">
+			<div class="wrapper">
+				<div class="section">
+					<div id="img_hide1" class="img" onclick="enableHides('hide1')"></div>
+					<div class="btn_container">
+						<div id="intro_hide1_btn" class="btn" onclick="enableHides('hide1')"><i>explore</i> SEGESSER I</div>
+						<div id="intro_hide1" class="description">{{hide.0.description}}</div>
+					</div>
+				</div>
+			
+				<div class="section">
+					<div id="img_hide2" class="img" onclick="enableHides('hide2')"></div>
+					<div class="btn_container">
+						<div id="intro_hide2_btn" class="btn" onclick="enableHides('hide2')"><i>explore</i> SEGESSER II</div>
+						<div id="intro_hide2" class="description">{{hide.1.description}}</div>
+					</div>
+				</div>
+			
+				<div class="section">
+					<div class="content">
+						<div class="title">The Segesser Hides</div>
+						<div class="description">{{description}}</div>
+					</div>
+					<div class="sectionBtn_container">
+						<div id="intro_tour" class="sectionBtn" onclick="enableHides('tour')">TOUR <i>the</i> HIDES</div>
+					</div>
+				</div>
+			</div>
+			
+		</script>
+		
+		<div id="intro"></div>
+		
+		<div id="viewport"></div>
+		
+		<div id="controls">
+	  		<div id="zoom-in" class="btn">+</div>
+			<div id="slider">
+				<div id="slide" class=".noUi-handle"></div>
+			</div>
+	  		<div id="zoom-out" class="btn">-</div>
+		</div>
+		
+		<div id="templates">
+			
+			<script id="highlight-template" type="text/x-handlebars-template">
+				<div id="content">
+					<div class="title">{{{content.title}}}</div>
+					<div class="description">
+						{{{content.description}}}
+					</div>
+					<div class="btn_container">
+						<div class="btn" onclick="closeHighlight()">X close</div>
+					</div>
+					
+				</div>
+			
+			</script>
+			<div id="highlight-placeholder"></div>
+			
+			
+			<script id="tour-template" type="text/x-handlebars-template">
+				<div class="icon"></div>
+				<h1>The Segesser Hides</h1>
+				
+					
+				<div id="content">
+					<div class="title">{{{content.title}}}</div>
+					
+					{{#if content.description}}
+						<div class="description">
+							{{{content.description}}}
+						</div>
+						
+						{{#if content.list}}
+			  			<div class="short-list">
+							{{splitlist content.list}}
+			  			</div>
+						{{/if}}
+					
+					{{else}}
+					
+						{{#if content.list}}
+			  			<div class="list">
+							{{splitlist content.list}}
+			  			</div>
+						{{/if}}
+					
+					{{/if}}
+					
+					
+				</div>
+				
+				
+				<div id="controller">
+					<div class="title">Tour Segesser I & II</div>
+					<div class="controls">
+						<div id="prev-tour" onclick="prevTour()"></div>
+						<div class="data">
+							<div id="current">{{current}}</div>
+							<i>of</i>
+							<div id="length">{{length}}</div>
+						</div>
+						<div id="next-tour" onclick="nextTour()"></div>
+					</div>
+				</div>
+				
+			</script>
+						
+			<div id="tour-placeholder"></div>
+			
+		</div>
+		
+		<div id="nav">
+			<div class="wrapper">
+				<div class="title" onclick="goHomescreen()">The Segesser Hides</div>
+				<div class="btns_wrapper">
+					<div id="hide1" class="btn">Segesser I</div>
+					<div id="hide2" class="btn">Segesser II</div>
+					<div id="tour" class="btn">Take a Tour</div>
+				</div>
+			</div>
+		</div>
+	
+	</div>
+	
+	<script type="text/javascript" src='js/kiosk.js'></script>	
+	
+	
+	    
+</body>
+</html>

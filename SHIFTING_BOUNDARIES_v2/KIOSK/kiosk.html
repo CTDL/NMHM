@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Shifting Boundaries</title>
+	
+    <link rel="stylesheet" type="text/css" href="css/skeleton.css" />
+    <link rel="stylesheet" type="text/css" href="css/kiosk.css" />
+	
+	
+    <!-- handlebars -->
+    <script src="libs/handlebars/handlebars-v4.0.5.js"></script>
+	
+    <!-- jquery -->
+    <script src="libs/jquery/jquery.min.js"></script>
+    <script src="libs/jquery/jquery-ui.min.js"></script>
+	
+    <!-- xml2json -->
+    <script src="libs/xml2json/jquery.xml2json.js"></script>
+
+	<!-- Fullpage JS & CSS -->
+	<link rel="stylesheet" type="text/css" href="libs/fullpagejs/javascript.fullPage.css" />
+	<script type="text/javascript" src="libs/fullpagejs/javascript.fullPage.js"></script>
+	
+    <!-- SlidesJS Required: Link to jquery.slides.js -->
+    <script src="libs/slidesjs/source/jquery.slides.min.js"></script>
+	
+	<!-- noUISlider -->
+	<link rel="stylesheet" href="libs/noUiSlider.9.2.0/nouislider.min.css">
+	<script type="text/javascript" src='libs/noUiSlider.9.2.0/nouislider.js'></script>	
+	
+	<!-- kiosk script -->
+	<script src="js/kiosk.js"></script>
+	
+
+	
+</head>
+<body>	
+	<main id="main">
+		
+	 
+	
+    <div class="map-container">
+		
+		<img src="assets/map/background_map.png" class="map-background-image" draggable="false">		
+		
+		<div class="layers">
+			<img src="assets/map/map_base.png" class="map-foreground-image">
+			<img src="assets/map/map_01.png" id="layer1" class="layer map-foreground-image" draggable="false">
+			<img src="assets/map/map_02.png" id="layer2" class="layer map-foreground-image" draggable="false">
+			<img src="assets/map/map_03.png" id="layer3" class="layer map-foreground-image" draggable="false">
+			<img src="assets/map/map_04.png" id="layer4" class="layer map-foreground-image" draggable="false">
+			<img src="assets/map/map_05.png" id="layer5" class="layer map-foreground-image" draggable="false">
+			<img src="assets/map/map_06.png" id="layer6" class="layer map-foreground-image" draggable="false">
+			<img src="assets/map/map_07.png" id="layer7" class="layer map-foreground-image" draggable="false">
+			<img src="assets/map/map_08.png" id="layer8" class="layer map-foreground-image" draggable="false"> 
+		</div>
+        <ul id="map-menu">
+			<a onclick="gotoMap(1)"><li id="layer1-btn">Native Lands</li></a>
+			<a onclick="gotoMap(2)"><li id="layer2-btn">New Spain</li></a>
+			<a onclick="gotoMap(3)"><li id="layer3-btn">Louisiana Purchase</li></a>
+			<a onclick="gotoMap(4)"><li id="layer4-btn">Adams-Onis Treaty</li></a>
+			<a onclick="gotoMap(5)"><li id="layer5-btn">Treaty of Guadalupe Hidalgo</li></a>
+			<a onclick="gotoMap(6)"><li id="layer6-btn">Compromise of 1850</li></a>
+			<a onclick="gotoMap(7)"><li id="layer7-btn">Gadsen Purchase</li></a>
+			<a onclick="gotoMap(8)"><li id="layer8-btn">New Mexico</li></a>
+		</ul>
+		
+       <div id="map-slider"><div id="slider-slide" class="noUi-handle map-handle"></div></div>
+     </div>
+	
+	<div class="container">
+		
+		
+	    <!-- BACKGROUND IMAGES -->
+	    <div class="row">
+			<img src="assets/story/background.png" class="background-image-top" draggable="false">
+			<div id="content-slider" class="content-slider"></div>
+	    </div>
+        <div id="menu-container">
+			<ul id="menu-fp">
+		      <a href="#encounters"><li id="encounters" data-menuanchor="encounters" class="link-img-one"></li></a>
+		      <a href="#nation"><li id="nation" data-menuanchor="nation" class="link-img-two"></li></a>
+		      <a href="#newmexico"><li id="newmexico" data-menuanchor="newmexico" class="link-img-three"></li></a>
+		      <a href="#homelands"><li id="homelands" data-menuanchor="homelands" class="link-img-four"></li></a>
+		    </ul>
+		
+			<ul id="menu">
+		      <a id="map-btn"><li id="map" class="link-img-five"></li></a>
+		    </ul>
+			
+		</div>	
+	    <div class="twelve columns">
+	      <ul id="menuTwo">
+	        <li class="bottom-link-img-one"><a class="story" id="1">Story One</a></li>
+	        <li class="bottom-link-img-two"><a class="story" id="2">Story Two</a></li>
+	        <li class="bottom-link-img-three"><a class="story" id="3">Story Three</a></li>
+	      </ul>
+	    </div>
+		
+		
+	    <div class="twelve columns bottom-section-title">
+	      <img class="bottom-section-img" src="assets/story/section_title_one.png">
+	    </div>
+		
+		
+
+	  <div id="wrap">
+   	  
+	    <!-- Full page start here -->
+		<div id="fullpage">
+			
+		<script id="template" type="text/x-handlebars-template">
+  	      <!-- First Section -->
+  	      <!-- Each section will be link through the menu anchors object on line 24 -->
+  	      <!-- This where I thought would be a good idea to create the template and pass in different data -->
+		 
+		  
+		  
+		  {{#each section}}
+		  	<div class="section" id="{{this.id}}">
+			
+			{{#each this.slides.slide}}
+			
+				{{#if this.image}}
+				
+					<div class="slide" id="{{this.id}}" data-anchor="{{this.anchor}}" style="background-image: url('{{this.image.file}}')">
+						<div class="twelve columns">
+						</div>
+					
+					</div>
+					
+				{{else}}
+					<div class="slide" id="{{this.id}}" data-anchor="{{this.anchor}}">
+					
+						<div class="six columns">
+						
+							<div class="slidesjs-container">
+							
+								<div id="{{this.slideshow.id}}" class="slidesjs">
+									{{#each this.slideshow.image}}
+										<div class="slidesjs-slide">
+											<img class="slideshow-img" src="{{this.file}}" draggable="false"/>
+								 			<div class="img-caption">
+								 				<p>{{{this.caption}}}</p>
+											</div>
+										</div>
+									{{/each}}
+								</div>
+								
+							</div>	
+						
+						</div>
+						
+						<div class="six columns">
+							<div id="{{this.id}}_content" class="content-container">
+								<div class="top-quote">{{this.heading}}</div>
+								<div class="content">{{{this.description}}}</div>
+								<div class="bottom-quote">{{{this.quote}}}</div>
+								{{#if this.map.id}}
+									<a class="button" onclick="gotoMap({{this.map.id}})">SEE ON MAP</a>
+								{{/if}}
+							</div>
+						</div>
+						
+					</div><!-- End of slide -->
+				{{/if}}
+					
+					
+			{{/each}}
+			
+			
+			</div><!-- End of section -->
+		  {{/each}}
+		  
+		 
+		</script>
+	
+		</div> <!-- End of Fullpage -->
+	
+	  </div> <!-- End wrap -->	  
+  
+	</div><!-- End of Container -->
+	
+</main>
+
+</body>
+</html>

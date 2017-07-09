@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<segesser>
+	<title>The Segesser Hides</title>
+	<description><![CDATA[Though the source of the Segesser Hide Paintings is obscure, their signifigance cannot be clearer: the hides are rare examples of the earliest known depictions of colonial life in the United States. Moreover, the tanned and soothed hides carry the very faces of men whose descendents live in New Mexico today.]]></description>
+<hide>
+	<title>Segesser 1</title>
+	<description>Represents a series of expeditions that set out from New Mexico to the Plains from 1693-1719.</description>
+	<settings>
+		<kiosk>
+			<level>2</level>
+			<x>0.25</x>
+			<y>0.19</y>
+		</kiosk>
+		<web>
+			<level>1.8</level>
+			<x>0.28</x>
+			<y>0.2</y>
+		</web>
+	</settings>
+	<highlights>
+		<highlight>
+			<location>
+				<x>0.25</x>
+				<y>0.18</y>
+			</location>
+			<zoom>
+				<level>2.8</level>
+				<x>0.16</x>
+				<y>0.30</y>
+			</zoom>
+			<image>
+				<source>content/highlights/1_5_g.png</source>
+				<x>0.144</x>
+				<y>0.110</y>
+				<width>0.3168</width>
+				<height>0.198</height>
+			</image>
+			<content>
+				<title><![CDATA[Missing Pieces]]></title>
+				<description><![CDATA[Several pieces are missing from the original rendering. This large missing piece on the left has not been located. Another missing section on the right was separated from the rest of the work sometime before 1908 and given to a member of the Segesser family.]]>
+				</description>
+			</content>
+		</highlight>
+		
+		<highlight>
+			<location>
+				<x>0.36</x>
+				<y>0.09</y>
+			</location>
+			<zoom>
+				<level>3.5</level>
+				<x>0.30</x>
+				<y>0.05</y>
+			</zoom>
+			<image>
+				<source>content/highlights/1_6_g.png</source>
+				<x>0.186</x>
+				<y>0.013</y>
+				<width>0.336</width>
+				<height>0.21</height>
+			</image>
+			<content>
+				<title><![CDATA[Hills and Cliffs]]></title>
+				<description><![CDATA[The paintings’ features of hills and cliffs, plants (such as deciduous trees), and animals (such as bison, elk, deer, and pumas) indicate the battle took place on varied terrain. Scholars are divided on exactly where and when it occurred.]]>
+				</description>
+			</content>
+		</highlight>
+		
+		<highlight>
+			<location>
+				<x>0.453</x>
+				<y>0.23</y>
+			</location>
+			<zoom>
+				<level>3.7</level>
+				<x>0.65</x>
+				<y>0.28</y>
+			</zoom>
+			<image>
+				<source>content/highlights/1_1_g.png</source>
+				<x>0.30</x>
+				<y>0.13</y>
+				<width>0.336</width>
+				<height>0.21</height>
+			</image>
+			<content>
+				<title><![CDATA[Spanish Officers and Indian Allies]]></title>
+				<description><![CDATA[Segesser I portrays Spanish and their allies, possibly Manso, Suma, or Opata, dispatched from the Palace attacking Apaches or other Sumas. It is unknown which encounter Segesser I depicts and could show any of a half-dozen expeditions that set out from New Mexico to the Plains between 1693 and 1719.]]>
+				</description>
+			</content>
+		</highlight>
+		
+		
+		<highlight>
+			<location>
+				<x>0.56</x>
+				<y>0.22</y>
+			</location>
+			<zoom>
+				<level>3.7</level>
+				<x>0.52</x>
+				<y>0.28</y>
+			</zoom>
+			<image>
+				<source>content/highlights/1_2_g.png</source>
+				<x>0.395</x>
+				<y>0.121</y>
+				<width>0.336</width>
+				<height>0.21</height>
+			</image>
+			<content>
+				<title><![CDATA[Attackers]]></title>
+				<description><![CDATA[The attackers on horseback are equipped with Spanish weapons, clothing, and leather armor to distinguish them from the opposition.]]></description>
+			</content>
+		</highlight>
+		
+		<highlight>
+			<location>
+				<x>0.72</x>
+				<y>0.23</y>
+			</location>
+			<zoom>
+				<level>4.0</level>
+				<x>0.75</x>
+				<y>0.3</y>
+			</zoom>
+			<image>
+				<source>content/highlights/1_3_g.png</source>
+				<x>0.548</x>
+				<y>0.148</y>
+				<width>0.336</width>
+				<height>0.21</height>
+			</image>
+			<content>
+				<title><![CDATA[Defenders]]></title>
+				<description><![CDATA[The defenders are on foot, armed with bows, arrows, and leather shields. ]]></description>
+			</content>
+		</highlight>
+		
+		
+		<highlight>
+			<location>
+				<x>0.73</x>
+				<y>0.155</y>
+			</location>
+			<zoom>
+				<level>4.0</level>
+				<x>0.78</x>
+				<y>0.16</y>
+			</zoom>
+			<image>
+				<source>content/highlights/1_4_g.png</source>
+				<x>0.584</x>
+				<y>0.07</y>
+				<width>0.336</width>
+				<height>0.21</height>
+			</image>
+			<content>
+				<title><![CDATA[Individuals behind Wooden Palisade]]></title>
+				<description><![CDATA[Because the encounter has not been pinpointed, it is not known if the individuals behind the wooden palisade are members of the defending tribe (perhaps women and children) or captive slaves.]]></description>
+			</content>
+		</highlight>
+		
+		
+	</highlights>
+</hide>
+
+<hide>
+	<title>Segesser 2</title>
+	<description>Depicts a 1720 Spanish expedition to root out French traders.</description>
+	<settings>
+		<kiosk>
+			<level>2.5</level>
+			<x>0.20</x>
+			<y>0.155</y>
+		</kiosk>
+		<web>
+			<level>2.1</level>
+			<x>0.24</x>
+			<y>0.155</y>
+		</web>
+	</settings>
+	
+	<highlights>
+		<highlight>
+			<location>
+				<x>0.09</x>
+				<y>0.165</y>
+			</location>
+			<zoom>
+				<level>8.5</level>
+				<x>0.02</x>
+				<y>0.19</y>
+			</zoom>
+			<image>
+				<source>content/highlights/2_1_g.png</source>
+				<x>0.0023</x>
+				<y>0.1045</y>
+				<width>0.24</width>
+				<height>0.15</height>
+			</image>
+			<content>
+				<title><![CDATA[Flintlock Musket]]></title>
+				<description><![CDATA[Flintlock muskets were the mainstay of European armies between 1660 and 1840. For military purposes, the weapon was loaded with ball, or a mixture of ball with several large shot, and had an effective range between 40 and 100 yards.]]></description>
+			</content>
+		</highlight>
+		
+		<highlight>
+			<location>
+				<x>0.12</x>
+				<y>0.135</y>
+			</location>
+			<zoom>
+				<level>2.8</level>
+				<x>0.0</x>
+				<y>0.19</y>
+			</zoom>
+			<image>
+				<source>content/highlights/2_2_g.png</source>
+				<x>0.00225</x>
+				<y>0.0665</y>
+				<width>0.2544</width>
+				<height>0.16</height>
+			</image>
+			<content>
+				<title><![CDATA[Junction of Loup and Platte Rivers]]></title>
+				<description><![CDATA[Clues such as the river junction at the left of the painting led researchers to believe that Segesser II illustrated an August 13, 1720 encounter at the Loup and Platte rivers in present-day eastern Nebraska.]]></description>
+			</content>
+		</highlight>
+		
+		<highlight>
+			<location>
+				<x>0.145</x>
+				<y>0.23</y>
+			</location>
+			<zoom>
+				<level>8.5</level>
+				<x>0.12</x>
+				<y>0.27</y>
+			</zoom>
+			<image>
+				<source>content/highlights/2_3_g.png</source>
+				<x>0.063</x>
+				<y>0.190</y>
+				<width>0.1632</width>
+				<height>0.102</height>
+			</image>
+			<content>
+				<title><![CDATA[Rabbit]]></title>
+				<description><![CDATA[Rabbit skins and fur were used for garments and blankets. They served also as an important food source.]]></description>
+			</content>
+		</highlight>
+		
+		<highlight>
+			<location>
+				<x>0.3</x>
+				<y>0.065</y>
+			</location>
+			<zoom>
+				<level>11.0</level>
+				<x>0.32</x>
+				<y>0.062</y>
+			</zoom>
+			<image>
+				<source>content/highlights/2_7_g.png</source>
+				<x>0.238</x>
+				<y>0.029</y>
+				<width>0.144</width>
+				<height>0.09</height>
+			</image>
+			<content>
+				<title><![CDATA[Fox]]></title>
+				<description><![CDATA[The fox is found in a variety of environments, from prairies and scrubland to forest settings. The fur of the fox was used by both Native Americans and European colonists. ]]></description>
+			</content>
+		</highlight>
+		
+		<highlight>
+			<location>
+				<x>0.295</x>
+				<y>0.105</y>
+			</location>
+			<zoom>
+				<level>8.5</level>
+				<x>0.31</x>
+				<y>0.115</y>
+			</zoom>
+			<image>
+				<source>content/highlights/2_4_g.png</source>
+				<x>0.214</x>
+				<y>0.066</y>
+				<width>0.1632</width>
+				<height>0.102</height>
+			</image>
+			<content>
+				<title><![CDATA[Espada Ancha]]></title>
+				<description><![CDATA[The Spanish colonial espada ancha or “wide sword” was commonly found in the territories of northern New Spain. They were used by various Spanish military units as well as by civilians, particularly those in mounted occupations such as traders, travelers and cattlemen.]]></description>
+			</content>
+		</highlight>
+		
+		
+		<highlight>
+			<location>
+				<x>0.323</x>
+				<y>0.10</y>
+			</location>
+			<zoom>
+				<level>8.5</level>
+				<x>0.35</x>
+				<y>0.10</y>
+			</zoom>
+			<image>
+				<source>content/highlights/2_5_g.png</source>
+				<x>0.2465</x>
+				<y>0.067</y>
+				<width>0.144</width>
+				<height>0.09</height>
+			</image>
+			<content>
+				<title><![CDATA[Leather Pouch]]></title>
+				<description><![CDATA[Pouches would have been used to carry a variety of items such as bullets, maps, and tobacco. ]]></description>
+			</content>
+		</highlight>
+		
+		<highlight>
+			<location>
+				<x>0.535</x>
+				<y>0.12</y>
+			</location>
+			<zoom>
+				<level>8.5</level>
+				<x>0.56</x>
+				<y>0.14</y>
+			</zoom>
+			<image>
+				<source>content/highlights/2_9_g.png</source>
+				<x>0.4896</x>
+				<y>0.116</y>
+				<width>0.096</width>
+				<height>0.06</height>
+			</image>
+			<content>
+				<title><![CDATA[French Soldiers]]></title>
+				<description><![CDATA[Thirty-seven French soldiers, identified by their European-style clothing—conical hats, coats, breeches, cuffs and leggings—are shown firing longarms at the Spanish military expedition. Oral and written accounts of the battle, however, do not mention French soldiers in the area. ]]></description>
+			</content>
+		</highlight>
+		
+		<highlight>
+			<location>
+				<x>0.54</x>
+				<y>0.155</y>
+			</location>
+			<zoom>
+				<level>4.0</level>
+				<x>0.6</x>
+				<y>0.155</y>
+			</zoom>
+			<image>
+				<source>content/highlights/2_8_g.png</source>
+				<x>0.362</x>
+				<y>0.0643</y>
+				<width>0.336</width>
+				<height>0.21</height>
+			</image>
+			<content>
+				<title><![CDATA[Volley of Musket Fire]]></title>
+				<description><![CDATA[Several Villasur survivors reported a volley of musket fire, but in the confusion of the battle, did not know who was attacking them. Some scholars propose that French traders took part in the ambush. Governor Valverde y Cosio, perhaps to defend the actions of Commander Villasur, claimed that “two hundred Frenchmen had fired, supported by a countless number of Pawnee allies.”]]></description>
+			</content>
+		</highlight>
+		
+		<highlight>
+			<location>
+				<x>0.57</x>
+				<y>0.165</y>
+			</location>
+			<zoom>
+				<level>8.5</level>
+				<x>0.59</x>
+				<y>0.195</y>
+			</zoom>
+			<image>
+				<source>content/highlights/2_10_g.png</source>
+				<x>0.5245</x>
+				<y>0.156</y>
+				<width>0.096</width>
+				<height>0.06</height>
+			</image>
+			<content>
+				<title><![CDATA[Pedro de Villasur – 1720]]></title>
+				<description><![CDATA[Pedro de Villasur lies on his back with his head supported and hat behind him. He came to New Mexico in 1713 and led a military expedition from the Palace of the Governors to check on the border when he clashed with French and Pawnee forces on August 13, 1720. Villasur’s lack of experience proved to be his demise. He is shown lying below his dead horse, his decorated uniform signifying his rank.]]></description>
+			</content>
+		</highlight>
+		
+		
+		
+		<highlight>
+			<location>
+				<x>0.65</x>
+				<y>0.148</y>
+			</location>
+			<zoom>
+				<level>8.5</level>
+				<x>0.65</x>
+				<y>0.15</y>
+			</zoom>
+			<image>
+				<source>content/highlights/2_11_g.png</source>
+				<x>0.5845</x>
+				<y>0.1205</y>
+				<width>0.1248</width>
+				<height>0.078</height>
+			</image>
+			<content>
+				<title><![CDATA[Villasur Expedition]]></title>
+				<description><![CDATA[Composed of 43 royal troops, three Spanish civilians, 60 Pueblo Indian auxiliaries and several other Indian allies, the Villasur Expedition of 1720 was caught off guard patrolling the border in Nebraska, and the battle left many dead. This was a major catastrophe for New Mexico with casualties amounting to a third of the province’s best soldiers.]]></description>
+			</content>
+		</highlight>
+		
+		<highlight>
+			<location>
+				<x>0.67</x>
+				<y>0.13</y>
+			</location>
+			<zoom>
+				<level>9</level>
+				<x>0.68</x>
+				<y>0.15</y>
+			</zoom>
+			<image>
+				<source>content/highlights/2_6_g.png</source>
+				<x>0.62</x>
+				<y>0.114</y>
+				<width>0.096</width>
+				<height>0.06</height>
+			</image>
+			<content>
+				<title><![CDATA[Jean l’Archevêque 1672 – 1720 Born in Bayonne, France]]></title>
+				<description><![CDATA[Jean l’Archevêque came to Santa Fe as a soldier colonist in November 1701. He served as an interpreter on the 1720 mission. When they encountered French soldiers and Pawnee Indians he was killed in the first shots. After the battle, the remaining soldiers escaped back to New Mexico, but didn’t bring l’Archevêque’s body with them. He left a legacy of descendants in New Mexico.]]></description>
+			</content>
+		</highlight>
+		
+		<highlight>
+			<location>
+				<x>0.675</x>
+				<y>0.21</y>
+			</location>
+			<zoom>
+				<level>8.25</level>
+				<x>0.69</x>
+				<y>0.26</y>
+			</zoom>
+			<image>
+				<source>content/highlights/2_12_g.png</source>
+				<x>0.6105</x>
+				<y>0.185</y>
+				<width>0.14208</width>
+				<height>0.0888</height>
+			</image>
+			<content>
+				<title><![CDATA[Pawnee and Oto Indian Allies]]></title>
+				<description><![CDATA[After daybreak, the Pawnee and their Oto Indian allies—illustrated throughout the painting by their painted and unclothed bodies and shaved or close-cropped heads—ambushed the Villasur party. The center of the painting portrays French soldiers, Pawnees and Otos surrounding the camp.]]></description>
+			</content>
+		</highlight>
+		
+		<highlight>
+			<location>
+				<x>0.747</x>
+				<y>0.145</y>
+			</location>
+			<zoom>
+				<level>8</level>
+				<x>0.75</x>
+				<y>0.17</y>
+			</zoom>
+			<image>
+				<source>content/highlights/2_13_g.png</source>
+				<x>0.672</x>
+				<y>0.113</y>
+				<width>0.144</width>
+				<height>0.09</height>
+			</image>
+			<content>
+				<title><![CDATA[José López Naranjo 1670 – 1720 Born at Santa Clara Pueblo]]></title>
+				<description><![CDATA[Naranjo showed his leadership skills at a young age, because by 1692, he served as the head of Santa Clara Pueblo, where he lived most of his life. His knowledge of Native languages was an invaluable resource to the Spanish. Not all expedition members were together when the enemy attacked. The right side of the painting depicts Spanish and Pueblo Indian troops running to assist the camp.]]></description>
+			</content>
+		</highlight>
+		
+		<highlight>
+			<location>
+				<x>0.765</x>
+				<y>0.095</y>
+			</location>
+			<zoom>
+				<level>8.5</level>
+				<x>0.78</x>
+				<y>0.10</y>
+			</zoom>
+			<image>
+				<source>content/highlights/2_15_g.png</source>
+				<x>0.696</x>
+				<y>0.06</y>
+				<width>0.144</width>
+				<height>0.09</height>
+			</image>
+			<content>
+				<title><![CDATA[Tomahawk]]></title>
+				<description><![CDATA[Tomahawks were generally used by Native North Americans as a hand weapon. The earliest tomahawks were made of stone that was fastened to a wooden handle in various ways. After the arrival of the European traders the stone implements were rapidly replaced by European-manufactured tomahawks of steel (trade tomahawks).]]></description>
+			</content>
+		</highlight>
+		
+		<highlight>
+			<location>
+				<x>0.781</x>
+				<y>0.148</y>
+			</location>
+			<zoom>
+				<level>8</level>
+				<x>0.8</x>
+				<y>0.17</y>
+			</zoom>
+			<image>
+				<source>content/highlights/2_14_g.png</source>
+				<x>0.7065</x>
+				<y>0.126</y>
+				<width>0.14208</width>
+				<height>0.0888</height>
+			</image>
+			<content>
+				<title><![CDATA[Fray Juan Mínguez, 1677 – 1720, Born in Mexico City]]></title>
+				<description><![CDATA[Fray Juan Mínguez was a criollo, a Spaniard born in Mexico City and probably came to New Mexico in 1705. He was a Chaplain in at least four expeditions. The first expedition was to found the new Villa de Albuquerque and two to Hopi to re-establish the missions there. His final one was to accompany the Spanish militia on the Villasur Expedition where he died.]]></description>
+			</content>
+		</highlight>
+		
+		<highlight>
+			<location>
+				<x>0.84</x>
+				<y>0.098</y>
+			</location>
+			<zoom>
+				<level>8.5</level>
+				<x>0.86</x>
+				<y>0.12</y>
+			</zoom>
+			<image>
+				<source>content/highlights/2_16_g.png</source>
+				<x>0.7363</x>
+				<y>0.056</y>
+				<width>0.2016</width>
+				<height>0.126</height>
+			</image>
+			<content>
+				<title><![CDATA[Adarga]]></title>
+				<description><![CDATA[The adarga was a hard leather shield used originally by the Moors of Spain and later adopted by Spanish military officers. Typically made from animal hide they were extremely resistant to the blows of swords and arrows. Inside was a pair of grips held in the hand or strapped to the forearm. Two or more layers of hide were glued and sewn together to make it both rigid and elastic.]]></description>
+			</content>
+		</highlight>
+		
+		<highlight>
+			<location>
+				<x>0.86</x>
+				<y>0.065</y>
+			</location>
+			<zoom>
+				<level>8.75</level>
+				<x>0.9</x>
+				<y>0.07</y>
+			</zoom>
+			<image>
+				<source>content/highlights/2_17_g.png</source>
+				<x>0.79</x>
+				<y>0.041</y>
+				<width>0.144</width>
+				<height>0.09</height>
+			</image>
+			<content>
+				<title><![CDATA[Deer]]></title>
+				<description><![CDATA[Tanned deer, elk, and bison hides were a common trade item that Plains Indian women prepared for trade at the annual trade fairs held during the colonial period at Taos and Pecos pueblos. Tanned hides also were exported on the Camino Real to markets in Mexico. ]]></description>
+			</content>
+		</highlight>
+		
+		<highlight>
+			<location>
+				<x>0.935</x>
+				<y>0.065</y>
+			</location>
+			<zoom>
+				<level>8.5</level>
+				<x>0.99</x>
+				<y>0.07</y>
+			</zoom>
+			<image>
+				<source>content/highlights/2_18_g.png</source>
+				<x>0.803</x>
+				<y>0.024</y>
+				<width>0.19584</width>
+				<height>0.1224</height>
+			</image>
+			<content>
+				<title><![CDATA[Bison]]></title>
+				<description><![CDATA[Tanned hides from deer, elk, and bison were used for paintings in colonial New Mexico. The size of the Segesser hides suggests that these were bison. Each panel is made of several skins carefully stitched together and smoothed with pumice to create a soft chamois.]]></description>
+			</content>
+		</highlight>
+		
+	</highlights>
+</hide>
+
+<tour>
+	<highlights>
+		<highlight>
+			<tileSource>0</tileSource>
+			<zoom>
+				<level>1.8</level>
+				<x>0.95</x>
+				<y>0.19</y>
+			</zoom>
+			<fwd>
+				<level>1.8</level>
+				<x>0.95</x>
+				<y>0.19</y>
+			</fwd>
+			<reverse>
+				<level>1.8</level>
+				<x>0.28</x>
+				<y>0.19</y>
+			</reverse>
+			<content>
+				<title><![CDATA[Who Painted the Hides?]]></title>
+				<description><![CDATA[Colonial census documents list a number of painters in Pueblo and Hispanic villages in the 17th and 18th centuries. Nicolás Jirón de Tejeda, a painter and presidial soldier, was a member of the Segesser expedition. Tejeda was wounded and feared dead, but eventually returned to Santa Fe in 1733. Perhaps he painted this detailed account of the battle.]]></description>
+				<list></list>
+			</content>
+		</highlight>
+		<highlight>
+			<tileSource>0</tileSource>
+			<zoom>
+				<level></level>
+				<x></x>
+				<y></y>
+			</zoom>
+			<fwd>
+				<level>2.25</level>
+				<x>1.5</x>
+				<y>0.05</y>
+			</fwd>
+			<reverse>
+				<level>2.1</level>
+				<x>1.65</x>
+				<y>0.05</y>
+			</reverse>
+			<content>
+				<title><![CDATA[Why Is It Called Segesser Hide?]]></title>
+				<description><![CDATA[The hides are named for the Jesuit priest, Philipp von Segesser von Brunegg, who acquired them in Sonora, Mexico, between 1732 and 1758, from the Anzas, a prominent family in military and civil affairs in both New Mexico and the Sonoran village where Father Segesser’s mission was situated. Segesser sent the hides to his family in Switzerland in 1758.]]></description>
+				<list></list>
+			</content>
+		</highlight>
+		<highlight>
+			<tileSource>0</tileSource>
+			<zoom>
+				<level></level>
+				<x></x>
+				<y></y>
+			</zoom>
+			<fwd>
+				<level>3.0</level>
+				<x>0.75</x>
+				<y>0.5</y>
+			</fwd>
+			<reverse>
+				<level>3.0</level>
+				<x>0.75</x>
+				<y>0.4</y>
+			</reverse>
+			<content>
+				<title><![CDATA[How Were They Acquired?]]></title>
+				<description><![CDATA[The existence of the hide paintings had long had been known, but their availability came to light in 1983 when another museum wanted to borrow them, only to discover that the von Segesser who then owned them wanted to sell rather than lend. The Palace of the Governors purchased the paintings designated Segesser I and II in 1988.]]></description>
+				<list></list>
+			</content>
+		</highlight>
+		
+		<highlight>
+			<tileSource>0</tileSource>
+			<zoom>
+				<level>3.0</level>
+				<x>0.57</x>
+				<y>0.3</y>
+			</zoom>
+			<fwd>
+				<level>2.8</level>
+				<x>2.90</x>
+				<y>0.19</y>
+			</fwd>
+			<reverse>
+				<level>3.0</level>
+				<x>0.57</x>
+				<y>0.3</y>
+			</reverse>
+			<content>
+				<title><![CDATA[What Kinds of Paints Were Used?]]></title>
+				<description><![CDATA[Paint was applied directly to the hides with no gesso or background preparation. The blue paint is an indigo dye while other colors are organic materials (clays for red and yellow) or minerals (iron sulfate for green and black) ground and made locally.]]></description>
+				<list></list>
+			</content>
+		</highlight>
+		
+		<highlight>
+			<tileSource>1</tileSource>
+			<zoom>
+				<level>2.1</level>
+				<x>-1.31</x>
+				<y>0.155</y>
+			</zoom>
+			<fwd>
+				<level>2.1</level>
+				<x>0.5</x>
+				<y>0.155</y>
+			</fwd>
+			<reverse>
+				<level>2.1</level>
+				<x>0.0</x>
+				<y>0.01</y>
+			</reverse>
+			<content>
+				<title><![CDATA[When Were the Hides Created?]]></title>
+				<description><![CDATA[Segesser II could have been painted between 1720 and 1758. Segesser I was likely painted prior to 1758, as well, though because the events depicted have never been identified it is difficult to determine.]]></description>
+				<list></list>
+			</content>
+		</highlight>
+		
+		<highlight>
+			<tileSource>1</tileSource>
+			<zoom>
+				<level></level>
+				<x></x>
+				<y></y>
+			</zoom>
+			<fwd>
+				<level>5.5</level>
+				<x>0.0</x>
+				<y>0.01</y>
+			</fwd>
+			<reverse>
+				<level>5.5</level>
+				<x>-7.95</x>
+				<y>0.01</y>
+			</reverse>
+			<content>
+				<title><![CDATA[The Artistic Style]]></title>
+				<description><![CDATA[The late seventeenth and early eighteenth centuries were the final great period of European battle tapestries. These textiles or leather wall hangings imported to the Americas might have influenced the commissioned Segesser hides. The hides contain wide, broadly painted flower and leaf borders that simulate carved or gilded frames, which also was typical of European tapestries from the same era.]]></description>
+				<list></list>
+			</content>
+		</highlight>
+		
+		<highlight>
+			<tileSource>1</tileSource>
+			<zoom>
+				<level></level>
+				<x></x>
+				<y></y>
+			</zoom>
+			<fwd>
+				<level>5.0</level>
+				<x>-7.99</x>
+				<y>0.01</y>
+			</fwd>
+			<reverse>
+				<level>5.0</level>
+				<x>1.2</x>
+				<y>0.01</y>
+			</reverse>
+			<content>
+				<title><![CDATA[What Kind of Animal Hide is This?]]></title>
+				<description><![CDATA[Tanned hides, from deer, elk, and bison, were used for paintings in colonial New Mexico. The size of the Segesser hides suggests that these were bison. Each panel is made of several skins carefully stitched together and smoothed with pumice to create a soft chamois.]]></description>
+				<list></list>
+			</content>
+		</highlight>
+		<highlight>
+			<tileSource>1</tileSource>
+			<zoom>
+				<level></level>
+				<x></x>
+				<y></y>
+			</zoom>
+			<fwd>
+				<level>2.1</level>
+				<x>1.3</x>
+				<y>0.01</y>
+			</fwd>
+			<reverse>
+				<level>2.1</level>
+				<x>0.9</x>
+				<y>0.15</y>
+			</reverse>
+			<content>
+				<title><![CDATA[Villasur Expedition Survivors]]></title>
+				<description><![CDATA[A small number of survivors made their way back to the Palace of the Governors after the failed expedition. The list below was compiled from the testimony of survivor Alonso Rael de Aguilar and supported by recent scholarly research.]]></description>
+				<list><![CDATA[Alonso Rael de Aguilar, Commander;Manuel Tenorio de Alba;Matías Madrid;José Mares;Joaquín Sánchez;Jacinto Perea;Juan Antonio Barrios;Antonio de Armenta;José de Santisteban;Melchor Rodríguez;Diego Tafoya;Francisco Montes Vigil, Lieutenant;Diego Árias de Quiros;Pedro Guillén;Ambrosio de Aragón;Juan de Ledesma;Antonio Gonzales;Santiago Giraville;José Domínguez de Mendoza;Nicolás Jirón;Felipe Tamaris;48 Pueblo Indians, names unknown]]></list>
+			</content>
+		</highlight>
+		<highlight>
+			<tileSource>1</tileSource>
+			<zoom>
+				<level>3.5</level>
+				<x>0.8</x>
+				<y>0.155</y>
+			</zoom>
+			<fwd>
+				<level>3.5</level>
+				<x>1.1</x>
+				<y>0.155</y>
+			</fwd>
+			<reverse>
+				<level>3.5</level>
+				<x>0.8</x>
+				<y>0.155</y>
+			</reverse>
+			<content>
+				<title><![CDATA[Villasur Expedition Casualties]]></title>
+				<description></description>
+				<list><![CDATA[Pedro de Villasur, New Mexico Lieutenant Governor and Commander-in-chief;Fray Juan Mínguez, Friar;Jean l’Archevêque, Interpreter;José Domínguez, Adjutant General;Tomás Olguín, Master of the Camp ;Cristóbal de la Serna, Captain;Pedro Luján, Captain;Bernardo Casillas, Ensign;José Griego, Corporal;Lorenzo Rodríguez, Corporal;Manual Silva;Pedro Segura;Lorenzo Segura;Diego Velásquez;Ignacio de Áviles;José Fernández;Simón de Córdova;Francisco Gonzales;Francisco de Tapia;Francisco Perea;Bernardo Madrid;Pedro de Agüero;Domingo Romero;Luís Ortiz;Juan Gallegos;Ramón de Medina;Antonio Herrera;Domingo Trujillo;Juan Río de Rojas;Pedro Lugo;Juan de Lira;Pedro Mendizábal;Joseph Naranjo, Santa Clara Pueblo and captain of Indian auxiliaries;11 Pueblo Indians, names unknown]]></list>
+			</content>
+		</highlight>
+		
+	</highlights>
+</tour>
+</segesser>

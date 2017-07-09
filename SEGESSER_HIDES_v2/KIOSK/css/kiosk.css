@@ -1,0 +1,783 @@
+	  
+
+		html{
+			/* uncomment to hide cursor on touch screen*/
+			/*	cursor: none; */
+		}
+		
+	
+		html, body { width: 100%; height: 100%; margin: 0; padding: 0}
+		
+		body{		
+			background-image: url("../assets/background_tile.jpg");
+			background-repeat: repeat;
+						
+			/* prevents highlighting text*/
+			-webkit-touch-callout: none; /* iOS Safari */
+			-webkit-user-select: none;   /* Chrome/Safari/Opera */
+			-khtml-user-select: none;    /* Konqueror */
+			-moz-user-select: none;      /* Firefox */
+			-ms-user-select: none;       /* Internet Explorer/Edge */
+			user-select: none;           /* Non-prefixed version, currently
+			                                  not supported by any browser */
+		}
+		
+		@font-face {
+		    font-family: MontserratRegular;
+		    src: url(../fonts/Montserrat/Montserrat-Regular.ttf);
+		}
+		@font-face {
+		    font-family: MontserratThin;
+		    src: url(../fonts/Montserrat/Montserrat-Thin.ttf);			
+		}
+		@font-face {
+		    font-family: MontserratBold;
+		    src: url(../fonts/Montserrat/Montserrat-Bold.ttf);			
+		}
+		@font-face {
+		    font-family: CormorantGaramondRegular;
+		    src: url(../fonts/Cormorant_Garamond/CormorantGaramond-Regular.ttf);			
+		}
+		
+		@font-face {
+		    font-family: CormorantGaramondLight;
+		    src: url(../fonts/Cormorant_Garamond/CormorantGaramond-Light.ttf);			
+		}
+
+
+      
+		
+        #main {
+            width: 100%;
+            height: 1080px;
+			margin: 0 auto;
+			padding: 0 0;
+			overflow:hidden;
+        }
+		
+		#viewport {
+            width: 100%;
+            height: 1000px;
+			background-image: url("../assets/background_tile.jpg");
+			background-repeat: repeat;
+			position:absolute;
+			z-index:0;
+		}
+		
+		#intro {
+            width: 100%;
+            height: 1080px;
+			background-size: cover;
+			position:absolute;
+			z-index:5;
+			background-image: url("../assets/background_overview.jpg");
+			margin: 0px auto;
+			overflow:hidden;
+		}
+		#intro .wrapper{
+			width:90%;
+			margin: 0px auto;
+			padding-top: 50px;
+			
+		}
+		
+		#intro .section{
+			width:100%;
+			height:300px;
+			display: block;
+			margin: 10px auto;
+			
+			
+		}
+		
+		#intro .section .img{
+			display: inline-block;
+			width: 1000px;
+			height: 370px;			
+			background-repeat: no-repeat;	
+			margin-right: 200px;
+			
+		}
+		
+		
+		
+		#img_hide1{
+			background-image:url('../assets/hide1.png');
+			background-size: contain;
+			background-position: 0px -16px;
+
+
+		}
+
+		#img_hide2{
+			background-image:url('../assets/hide2.png');
+			background-size: contain;
+			background-position: 0px 40px;
+
+		}
+		
+		
+		
+		#intro .section .btn_container{
+			position: relative;
+			top: -150px;
+			width: 250px;
+			display: inline-block;	
+			
+		}
+		
+		
+		#intro .section .btn_container .btn{
+			background-color:#59482b;
+			font-family: MontserratRegular;
+			font-size: 14px;
+			font-weight: normal;
+			letter-spacing: 3px;
+			color: #e1dcd2;
+			text-align:center;
+			height: 30px;
+			line-height:30px;
+			border-radius:5px;
+			padding: 0px 10px;
+			width:200px;
+			position: relative;
+			margin-bottom: 10px;
+			margin-left: auto;
+			margin-right: auto;
+			
+		}
+		
+		.btn i{
+			font-size: 10px;
+			font-family: CormorantGaramondRegular;
+		}
+		
+		
+		
+		#intro .section .btn_container .description{
+			font-family: MontserratRegular;
+			font-size: 16px;
+			font-weight: normal;
+			letter-spacing: 0px;
+			color: #ac8940;
+			text-align: center;
+			width:auto;
+			
+		}
+		
+		
+		#intro .section .content {
+			width:1000px;
+			padding-left: 10px;
+			display: inline-block;
+			margin-top: 75px;
+			margin-right: 185px;
+		}
+		#intro .section .content .title {
+			color:#936c32;
+			font-family: CormorantGaramondLight;
+			font-size: 32px;
+			
+			margin-bottom: 10px;
+			
+		}
+		
+		#intro .section .content .description{
+			width:auto;
+			display: inline-block;
+			font-family: MontserratRegular;
+			font-size: 16px;
+			font-weight: normal;
+			letter-spacing: .1;
+			color: #d6ccaf;
+ 			
+		    -webkit-column-gap: 30px; /* Chrome, Safari, Opera */
+			-webkit-column-count: 2; /* Chrome, Safari, Opera */
+			-moz-column-count: 2; /* Firefox */
+			column-count: 2;
+			
+			
+		}
+		
+		#intro .section .sectionBtn_container {
+			position: relative;
+			top: -50px;
+			width: 250px;
+			display: inline-block;	
+			
+			
+		}
+		#intro .section .sectionBtn_container .sectionBtn{
+			background-color:#3b6362;
+			display: block;
+			font-family: MontserratRegular;
+			font-size: 16px;
+			font-weight: normal;
+			letter-spacing: 3px;
+			color: #e1dcd2;
+			width:170px;
+			text-align:center;
+			height: 40px;
+			line-height:40px;
+			border-radius:5px;
+			padding: 0px 15px;
+			position: relative;
+			margin: 0px auto;
+			
+		}
+		.shadow{
+			 box-shadow: 0px 0px 100px rgba(255,255,255,.25);
+			-webkit-box-shadow: 0px 0px  100px rgba(255,255,255,.25);
+			-moz-box-shadow: 0px 0px 100px rgba(255,255,255,.25);
+		}
+	
+		
+		.sectionBtn i{
+			font-size: 14px;
+			font-family: CormorantGaramondRegular;
+		}
+		
+		
+		
+		
+		
+		
+		
+		.highlight_img{
+			
+			z-index : 0;
+			-webkit-filter: drop-shadow(0px 0px 20px rgba(245,133,12,1.0));
+		  	-moz-filter: drop-shadow(0px 0px 20px rgba(245,133,12,1.0));
+		 	-ms-filter: drop-shadow(0px 0px 20px rgba(245,133,12,1.0));
+		 	-o-filter: drop-shadow(0px 0px 20px rgba(245,133,12,1.0));
+		  	filter: drop-shadow(0px 0px 20px rgba(245,133,12,1.0));
+			-webkit-animation-direction: normal;
+			-webkit-animation-duration: 2s;
+			-webkit-animation-iteration-count: infinite;
+			-webkit-animation-name: fade-inout;
+			-webkit-animation-timing-function: ease-in-out;  
+			
+			width:1920px;
+			height:1200px;
+			
+		}
+		
+		@-webkit-keyframes 'fade-inout' {
+		    0% {
+		        opacity:1;
+			
+		    }
+			50% {
+				opacity:.75;
+				
+			}
+		    100% {
+		        opacity:1;
+				
+		    }
+    
+		}
+		
+		
+		.highlight {
+			
+			display:block;
+	    	width:40px;
+			height:40px;
+			line-height:36px;
+	    	border-radius: 50%;
+	    	color:#f5f5f5;
+	    	text-align:center;
+	    	text-decoration:none;
+	    	background: #6e9b7c;
+			font-size:30px;
+	    	font-weight:bold;
+			z-index : 1;
+			-webkit-box-shadow: 0px 0px 0px 3px rgba(255,252,255,.5);
+			-moz-box-shadow: 0px 0px 0px 3px rgba(255,252,255,.5);
+			box-shadow: 0px 0px 0px 3px rgba(255,252,255,.5);
+		}
+		
+		
+		
+		#controls{
+			position:absolute;
+			z-index:2;
+			width: 75px;
+			height: auto;
+			background-color:rgba(0, 0, 0, 0.65);
+			top: 350px;
+			border-top-right-radius:5px;
+			border-bottom-right-radius:5px;	
+			
+		}
+		
+		#controls .btn {
+			display: block;
+			width: 75px;
+			height: 75px;
+			line-height:65px;
+			font-size:28px;
+		    text-align:center;
+		    color:rgba(255,255,255,0.5);	
+			background-image:url('../assets/magnify.svg');
+			background-size: 75px 75px;
+			background-repeat: no-repeat;
+		    background-position: -2px 3px; 
+			
+			
+		}
+		
+		#controls #slider{
+			z-index:1;
+			width: 75px;
+			height: 100px;
+		    border-top: .25px solid #000;
+		    border-bottom: .25px solid #000;
+			background-image: url('../assets/slide.svg');
+			background-size: 100% 100%;
+			background-repeat: no-repeat;
+			
+		
+		}
+		#controls #slider #slide{
+			width: 20px;
+			height: 70px;
+			margin-left:20px;
+			top:22px;
+
+		    
+		}
+		
+		.noUi-handle {
+			width: 45px!important;
+			height: 20px!important;
+		    background-color: #a28149;
+		    border: none;
+		    border-radius: 5px;
+		    box-shadow: none;
+		    color: #000;
+			position: relative;
+		    z-index: 1;
+			padding: 0 0;    
+		  
+		}
+		
+
+		/* Handle stripes;
+		 */
+		
+		.noUi-vertical .noUi-handle:before,
+		.noUi-vertical .noUi-handle:after {
+			width: 33px!important;
+			height: 1.25px!important;
+			left: 6px!important;
+			top: 12px!important;
+			background-color: #59482b;
+			
+		}
+		.noUi-vertical .noUi-handle:after {
+			top: 7px!important;
+		}
+		
+		/* Handle bg;*/
+	  .noUi-target{
+		width: 35px!important;
+		height: 70px!important;
+		
+		padding: 0 0;
+	    background-color: rgba(0,0,0,0);
+	    box-shadow: none;
+	    border: none;
+		
+		
+		
+	  }
+	  
+		
+		#nav {
+			z-index:4;
+            width: 100%;
+			overflow:hidden;
+            height: 80px;
+			position:absolute;
+			top:1000px;			
+			background: rgb(20,13,4); /* Old browsers */
+			background: -moz-linear-gradient(top, rgba(20,13,4,1) 0%, rgba(0,0,0,1) 10%, rgba(0,0,0,1) 27%, rgba(19,19,19,1) 100%); /* FF3.6-15 */
+			background: -webkit-linear-gradient(top, rgba(20,13,4,1) 0%,rgba(0,0,0,1) 10%,rgba(0,0,0,1) 27%,rgba(19,19,19,1) 100%); /* Chrome10-25,Safari5.1-6 */
+			background: linear-gradient(to bottom, rgba(20,13,4,1) 0%,rgba(0,0,0,1) 10%,rgba(0,0,0,1) 27%,rgba(19,19,19,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#140d04', endColorstr='#131313',GradientType=0 ); /* IE6-9 */
+			
+		}
+		#nav .wrapper{
+			float:right;
+			margin-top: 20px;
+		}
+		#nav .title {
+		    font-family: CormorantGaramondRegular;
+			display: inline-block;
+			width: auto;
+			padding-right: 80px;
+			height: 40px;
+			font-size:40px;
+			min-width: 80px;
+			line-height:30px;
+			text-align:center;
+			color:#936c32;
+			
+		}
+		#nav .btns_wrapper{
+			display: inline-block;
+		}
+		#nav .btns_wrapper .btn {
+			display: inline-block;
+			width: 150px;
+			padding: 0px 10px;
+			border-radius:5px;
+			height: 30px;
+			color:#fff;
+			min-width: 80px;
+			line-height:30px;
+			text-align:center;
+			background:#604406;
+		    text-transform: uppercase;
+			top: -4px;
+			position:relative;
+			margin-right: 10px;
+		    font-family: MontserratRegular;
+			color:#e1dcd2;
+			font-size: 16px;
+			font-weight: normal;
+			letter-spacing: 3px;	
+		} 
+		
+		#nav #tour {
+			background-color:#3b6362;
+		}
+		
+		#nav .selected {
+			background:#dff;
+		}
+		
+		#templates {
+            width: 100%;
+            height: 1000px;
+			position:absolute;
+			z-index:0;
+			overflow:hidden;
+		}
+		
+		
+		#highlight-placeholder{
+			background:rgba(189,134,51,.9);
+			width:100%;
+			height:auto;
+			position:absolute;
+			bottom:0px;
+		}
+		
+		#highlight-placeholder .title{
+			display: inline-block;
+			width:25%;
+			height:auto;
+			
+			font-family: CormorantGaramondRegular;
+			font-size: 24px;
+			font-weight: bold;
+			letter-spacing: 0px;
+			color: #453416;
+			text-align: right;
+			margin: 0 auto;
+		
+			
+			
+		}
+		#highlight-placeholder .description{
+			display: inline-block;
+			width:50%;
+			height:auto;
+			padding: 20px;
+			font-family: MontserratRegular;
+			font-size: 14px;
+			font-weight: normal;
+			letter-spacing: .1;
+			line-height: 18px;
+			color: #453416;
+			border-left: .5px solid #ddb46c;
+			border-right: .5px solid #ddb46c;
+			margin-left: 20px;
+			margin-right: 20px;
+		}
+		
+		#highlight-placeholder .btn_container{
+			display: inline-block;
+			width: auto;
+			height: auto;
+			margin: 0px auto;
+		}
+		
+		#highlight-placeholder .btn{
+			
+			width: 25%;
+			padding: 0px 5px;
+			border-radius:5px;
+			height: 30px;
+			min-width: 100px;
+			line-height:30px;
+			text-align:center;
+		    text-transform: uppercase;
+			background:#3f3628;
+			color: #d5c9af;
+			
+			font-family: MontserratRegular;
+			font-size: 14px;
+			font-weight: normal;
+			letter-spacing: 3px;
+			
+			top: 0px;
+			margin: 0px auto;
+		
+			
+			
+			
+			
+		}
+		
+		#tour-placeholder{
+			background-color: rgba(33,56,45, 0.9);
+			width:340px;
+			height:100%;
+
+			position:absolute;
+			right:0px;
+			padding-top: 40px;
+			
+		}
+		#tour-placeholder .icon{
+			width:50px;
+			height:50px;
+			background-image:url('../assets/flag_icon.png');
+			background-size: contain;
+			background-position: 0 0;
+			margin: 0 auto;
+			
+		}
+		
+		#tour-placeholder h1{
+			text-align:center;
+			font-family: CormorantGaramondRegular;
+			font-size: 16px;
+			margin-bottom: 60px;
+			font-weight: bold;
+			letter-spacing: 2px;
+			color: #ac8940;
+		    text-transform: uppercase;
+			
+			
+		}
+		
+		
+		#tour-placeholder #content .title{
+			font-family: CormorantGaramondRegular;
+			font-size: 22px;
+			font-weight: normal;
+			letter-spacing: .1;
+			color: #49b8a5;
+			margin-bottom:15px;
+			padding-left: 25px;
+			
+		}
+		#tour-placeholder #content .description{
+			font-family: MontserratRegular;
+			font-size: 14px;
+			font-weight: normal;
+			letter-spacing: .1;
+			line-height: 18px;
+			color: #d6ccaf;
+			margin-bottom:20px;
+			padding-left: 25px;
+			padding-right: 15px;
+			
+			
+		}
+		
+		
+		#tour-placeholder #content .list{
+			/*height:690px;*/
+			height:  auto;
+			
+			list-style: none;
+			
+			font-family: MontserratRegular;
+			font-size: 13px;
+			font-weight: normal;
+			letter-spacing: 1;
+			line-height: 18px;
+			
+			color: #b59258;
+			
+			padding-left: 25px;
+			padding-right: 10px;
+			padding-top: 5px;
+			
+			border-top: 2px solid rgba(0,0,0,0.25);
+			
+		}
+		
+		#tour-placeholder #content .short-list{
+			/*height:337px;*/
+			
+			height:  auto;
+								
+			list-style: none;
+			
+			font-family: MontserratRegular;
+			font-size: 12px;
+			font-weight: normal;
+			letter-spacing: 1;
+			line-height: 18px;
+			
+			color: #b59258;
+			
+			padding-left: 25px;
+			padding-right: 10px;
+			padding-top: 5px;
+			
+			border-top: 2px solid rgba(0,0,0,0.25);
+			
+			
+		}
+		
+		.scroll{
+		    overflow: scroll;	
+			overflow-x: hidden;	
+			
+			
+		}
+		.scroll::-webkit-scrollbar {
+		    width: 30px;
+			background: transparent;
+			
+		}
+
+
+
+		.scroll::-webkit-scrollbar-button:start:decrement,
+		::-webkit-scrollbar-button:end:increment 
+		{
+			margin:60px;
+			
+		    height: 30px;
+		    width: 30px;
+		    display: block;
+		    background-repeat: no-repeat; 
+			
+			background: transparent;
+    
+		}
+
+		.scroll::-webkit-scrollbar-button:vertical:decrement 
+		{
+		    
+		    background-image: url(../assets/arrow_up.png);
+			background-size: contain;
+		    background-repeat: no-repeat; 
+			
+ 
+		}
+
+		.scroll::-webkit-scrollbar-button:vertical:increment 
+		{
+		   
+		    background-image: url(../assets/arrow_down.png);
+			background-size: contain;
+		    background-repeat: no-repeat; 
+			
+		}
+		
+		
+		
+		#tour-placeholder #controller {
+
+			width:100%;
+			height:100px;
+			border-top: 2px solid rgba(0,0,0,0.25);
+			bottom: 0px;
+			position:absolute;
+			padding: 20px 0;
+			
+			
+		}
+		#tour-placeholder #controller .title{
+			font-family: MontserratThin;
+			color: #ddb46c;
+			font-size: 14px;
+			letter-spacing: 2px;
+			font-weight: normal;
+		    text-transform: uppercase;
+			text-align:center;		
+			margin-bottom: 10px;
+			padding-left: 25px;
+			
+			
+		}
+		#tour-placeholder #controller .controls{
+			display: block;
+			width:auto;
+			padding-left: 25px;
+			
+		}
+		
+		#tour-placeholder #controller .controls #prev-tour{
+			display: inline-block;
+			width:35px;
+			height:35px;
+			background-image:url('../assets/arrow_left.png');
+			background-size: contain;
+			background-position: 0 0;
+			
+		}
+		#tour-placeholder #controller .controls .data{
+			display: inline-block;
+			width:70%;
+			text-align:center;		
+			margin: 0px auto;
+			font-family: MontserratRegular;
+			font-size: 26px;
+			font-weight: normal;
+			letter-spacing: .1;
+			color: #d6ccaf;
+			
+		}
+		#tour-placeholder #controller .controls .data #current{
+			display: inline-block;
+			width:auto;
+			margin:5px;
+		}
+		#tour-placeholder #controller .controls .data #length{
+			display: inline-block;
+			width:auto;
+			margin:5px;
+			
+		}
+		#tour-placeholder #controller .controls .data i{
+			display: inline-block;
+			font-family: CormorantGaramondRegular;
+			font-size: 16px;
+			position: relative;
+			top: -3px;
+			color: #ddb46c;
+			width:auto;
+
+		}
+	
+		#tour-placeholder #controller .controls #next-tour{
+			display: inline-block;
+			width:35px;
+			height:35px;
+			background-image:url('../assets/arrow_right.png');
+			background-size: contain;
+			background-position: 0 0;
+		}
+		
+
